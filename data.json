@@ -133,17 +133,18 @@
     "Artists": [
       "Lâm Thằn Lằn"
     ],
-    "Album / Release": "Unresolved — obscure/novelty release",
+    "Album / Release": "Ăm Chã Húi - Single",
     "Score": 0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
     "Genres": [
+      "Vietnamese Pop",
       "Novelty"
     ],
-    "Genre": "Novelty",
+    "Genre": "Vietnamese Pop",
     "Tier": "Failed",
-    "Cover": "/api/cover?song=%C4%82m+ch%C3%A3+h%C3%BAi&artist=L%C3%A2m+Th%E1%BA%B1n+L%E1%BA%B1n&album=Unresolved+%E2%80%94+obscure%2Fnovelty+release",
+    "Cover": "/api/cover?song=%C4%82m+ch%C3%A3+h%C3%BAi&artist=L%C3%A2m+Th%E1%BA%B1n+L%E1%BA%B1n&album=%C4%82m+Ch%C3%A3+H%C3%BAi+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -475,6 +476,27 @@
   },
   {
     "id": 23,
+    "Song": "Anh đã quen với cô đơn",
+    "Artist": "Soobin Hoàng Sơn",
+    "Artists": [
+      "Soobin Hoàng Sơn"
+    ],
+    "Album / Release": "Anh Đã Quen Với Cô Đơn - Single",
+    "Score": 5.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=Anh+%C4%91%C3%A3+quen+v%E1%BB%9Bi+c%C3%B4+%C4%91%C6%A1n&artist=Soobin+Ho%C3%A0ng+S%C6%A1n&album=Anh+%C4%90%C3%A3+Quen+V%E1%BB%9Bi+C%C3%B4+%C4%90%C6%A1n+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 24,
     "Song": "Wtf bby I'm lit",
     "Artist": "MCK",
     "Artists": [
@@ -496,7 +518,7 @@
     "Review": ""
   },
   {
-    "id": 24,
+    "id": 25,
     "Song": "Bad Blood",
     "Artist": "Taylor Swift",
     "Artists": [
@@ -517,7 +539,7 @@
     "Review": ""
   },
   {
-    "id": 25,
+    "id": 26,
     "Song": "Why'd You Only Call Me When You're High?",
     "Artist": "Arctic Monkeys",
     "Artists": [
@@ -539,7 +561,7 @@
     "Review": ""
   },
   {
-    "id": 26,
+    "id": 27,
     "Song": "Styles",
     "Artist": "Taylor Swift",
     "Artists": [
@@ -560,7 +582,7 @@
     "Review": ""
   },
   {
-    "id": 27,
+    "id": 28,
     "Song": "Look What You Made Me Do",
     "Artist": "Taylor Swift",
     "Artists": [
@@ -581,7 +603,7 @@
     "Review": ""
   },
   {
-    "id": 28,
+    "id": 29,
     "Song": "Blank Space",
     "Artist": "Taylor Swift",
     "Artists": [
@@ -602,7 +624,7 @@
     "Review": ""
   },
   {
-    "id": 29,
+    "id": 30,
     "Song": "I Need U",
     "Artist": "BTS",
     "Artists": [
@@ -624,7 +646,7 @@
     "Review": ""
   },
   {
-    "id": 30,
+    "id": 31,
     "Song": "Starboy",
     "Artist": "The Weeknd",
     "Artists": [
@@ -646,7 +668,7 @@
     "Review": ""
   },
   {
-    "id": 31,
+    "id": 32,
     "Song": "Radio",
     "Artist": "Lana Del Rey",
     "Artists": [
@@ -667,7 +689,7 @@
     "Review": ""
   },
   {
-    "id": 32,
+    "id": 33,
     "Song": "Cinnamon Girl",
     "Artist": "Lana Del Rey",
     "Artists": [
@@ -688,7 +710,7 @@
     "Review": ""
   },
   {
-    "id": 33,
+    "id": 34,
     "Song": "One Kiss",
     "Artist": "Calvin Harris, Dua Lipa",
     "Artists": [
@@ -711,7 +733,7 @@
     "Review": ""
   },
   {
-    "id": 34,
+    "id": 35,
     "Song": "Love Me Not",
     "Artist": "Ravyn Lenae",
     "Artists": [
@@ -732,7 +754,7 @@
     "Review": ""
   },
   {
-    "id": 35,
+    "id": 36,
     "Song": "He's My Man",
     "Artist": "Luvcat",
     "Artists": [
@@ -753,7 +775,7 @@
     "Review": ""
   },
   {
-    "id": 36,
+    "id": 37,
     "Song": "Stereo Hearts",
     "Artist": "Maroon 5",
     "Artists": [
@@ -774,7 +796,7 @@
     "Review": ""
   },
   {
-    "id": 37,
+    "id": 38,
     "Song": "Santa Tell Me",
     "Artist": "Ariana Grande",
     "Artists": [
@@ -796,7 +818,7 @@
     "Review": ""
   },
   {
-    "id": 38,
+    "id": 39,
     "Song": "Versace On The Floor",
     "Artist": "Bruno Mars",
     "Artists": [
@@ -818,7 +840,7 @@
     "Review": ""
   },
   {
-    "id": 39,
+    "id": 40,
     "Song": "What makes you beautiful",
     "Artist": "One Direction",
     "Artists": [
@@ -839,7 +861,7 @@
     "Review": ""
   },
   {
-    "id": 40,
+    "id": 41,
     "Song": "Go Baby",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -861,7 +883,7 @@
     "Review": ""
   },
   {
-    "id": 41,
+    "id": 42,
     "Song": "Sober",
     "Artist": "Bigbang",
     "Artists": [
@@ -883,7 +905,7 @@
     "Review": ""
   },
   {
-    "id": 42,
+    "id": 43,
     "Song": "Hymn for the Weekend",
     "Artist": "Coldplay",
     "Artists": [
@@ -905,7 +927,7 @@
     "Review": ""
   },
   {
-    "id": 43,
+    "id": 44,
     "Song": "Tình yêu chậm trễ",
     "Artist": "Monsta, Grey D",
     "Artists": [
@@ -928,7 +950,7 @@
     "Review": ""
   },
   {
-    "id": 44,
+    "id": 45,
     "Song": "Alone",
     "Artist": "Alan Walker",
     "Artists": [
@@ -949,7 +971,7 @@
     "Review": ""
   },
   {
-    "id": 45,
+    "id": 46,
     "Song": "Faded",
     "Artist": "Alan Walker",
     "Artists": [
@@ -970,7 +992,7 @@
     "Review": ""
   },
   {
-    "id": 46,
+    "id": 47,
     "Song": "Attention",
     "Artist": "Charlie Puth",
     "Artists": [
@@ -991,7 +1013,7 @@
     "Review": ""
   },
   {
-    "id": 47,
+    "id": 48,
     "Song": "Closer",
     "Artist": "The Chainsmokers",
     "Artists": [
@@ -1013,7 +1035,7 @@
     "Review": ""
   },
   {
-    "id": 48,
+    "id": 49,
     "Song": "Last Christmas",
     "Artist": "Wham",
     "Artists": [
@@ -1035,7 +1057,7 @@
     "Review": ""
   },
   {
-    "id": 49,
+    "id": 50,
     "Song": "Despacito",
     "Artist": "Luis Fonsi",
     "Artists": [
@@ -1057,7 +1079,417 @@
     "Review": ""
   },
   {
-    "id": 50,
+    "id": 51,
+    "Song": "Lose Yourself",
+    "Artist": "Eminem",
+    "Artists": [
+      "Eminem"
+    ],
+    "Album / Release": "8 Mile (Original Motion Picture Soundtrack)",
+    "Score": 6.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Lose+Yourself&artist=Eminem&album=8+Mile+%28Original+Motion+Picture+Soundtrack%29",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 52,
+    "Song": "How long",
+    "Artist": "Charlie Puth",
+    "Artists": [
+      "Charlie Puth"
+    ],
+    "Album / Release": "Voicenotes",
+    "Score": 6.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=How+long&artist=Charlie+Puth&album=Voicenotes",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 53,
+    "Song": "Love Yourself",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Purpose",
+    "Score": 6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Love+Yourself&artist=Justin+Bieber&album=Purpose",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 54,
+    "Song": "Oh, Ah, Oh",
+    "Artist": "Bigbang",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "Remember",
+    "Score": 6.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "K-Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Oh%2C+Ah%2C+Oh&artist=Bigbang&album=Remember",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 55,
+    "Song": "Bang Bang Bang",
+    "Artist": "Bigbang",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "A / MADE",
+    "Score": 6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "K-Pop",
+      "Electronic/Dance"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Bang+Bang+Bang&artist=Bigbang&album=A+%2F+MADE",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 56,
+    "Song": "Chúng Ta Của Tương Lai",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Chúng Ta Của Tương Lai - Single",
+    "Score": 6.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Ch%C3%BAng+Ta+C%E1%BB%A7a+T%C6%B0%C6%A1ng+Lai&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Ch%C3%BAng+Ta+C%E1%BB%A7a+T%C6%B0%C6%A1ng+Lai+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 57,
+    "Song": "Deserve You",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Justice",
+    "Score": 6.4,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Deserve+You&artist=Justin+Bieber&album=Justice",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 58,
+    "Song": "Lalala",
+    "Artist": "Soobin Hoàng Sơn",
+    "Artists": [
+      "Soobin Hoàng Sơn"
+    ],
+    "Album / Release": "Lalala - Single",
+    "Score": 6.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Lalala&artist=Soobin+Ho%C3%A0ng+S%C6%A1n&album=Lalala+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 59,
+    "Song": "Hãy trao cho anh",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Hãy Trao Cho Anh (feat. Snoop Dogg) - Single",
+    "Score": 6.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=H%C3%A3y+trao+cho+anh&artist=S%C6%A1n+T%C3%B9ng+MTP&album=H%C3%A3y+Trao+Cho+Anh+%28feat.+Snoop+Dogg%29+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 60,
+    "Song": "Loser",
+    "Artist": "Charlie Puth",
+    "Artists": [
+      "Charlie Puth"
+    ],
+    "Album / Release": "CHARLIE",
+    "Score": 6.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Loser&artist=Charlie+Puth&album=CHARLIE",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 61,
+    "Song": "Lonely",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Justice",
+    "Score": 6.7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Lonely&artist=Justin+Bieber&album=Justice",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 62,
+    "Song": "Intentions",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Changes",
+    "Score": 6.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Intentions&artist=Justin+Bieber&album=Changes",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 63,
+    "Song": "That should be me",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "My World 2.0",
+    "Score": 6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=That+should+be+me&artist=Justin+Bieber&album=My+World+2.0",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 64,
+    "Song": "Available",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Changes",
+    "Score": 6.7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Available&artist=Justin+Bieber&album=Changes",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 65,
+    "Song": "Blue",
+    "Artist": "Bigbang",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "ALIVE",
+    "Score": 6.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Blue&artist=Bigbang&album=ALIVE",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 66,
+    "Song": "If You",
+    "Artist": "Bigbang",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "D / MADE",
+    "Score": 6.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=If+You&artist=Bigbang&album=D+%2F+MADE",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 67,
+    "Song": "Không Phải Dạng Vừa Đâu",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Kh%C3%B4ng+Ph%E1%BA%A3i+D%E1%BA%A1ng+V%E1%BB%ABa+%C4%90%C3%A2u&artist=S%C6%A1n+T%C3%B9ng+MTP&album=m-tp+M-TP",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 68,
+    "Song": "Snooze",
+    "Artist": "SZA",
+    "Artists": [
+      "SZA"
+    ],
+    "Album / Release": "SOS",
+    "Score": 6.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Snooze&artist=SZA&album=SOS",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 69,
+    "Song": "Beauty And A Beat",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Believe",
+    "Score": 6.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "Electronic/Dance"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Beauty+And+A+Beat&artist=Justin+Bieber&album=Believe",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 70,
     "Song": "Magnetic",
     "Artist": "Illit",
     "Artists": [
@@ -1079,7 +1511,7 @@
     "Review": ""
   },
   {
-    "id": 51,
+    "id": 71,
     "Song": "Sweater Weather",
     "Artist": "The Neighbourhood",
     "Artists": [
@@ -1100,7 +1532,7 @@
     "Review": ""
   },
   {
-    "id": 52,
+    "id": 72,
     "Song": "NOT CUTE ANYMORE (Sped up)",
     "Artist": "Illit",
     "Artists": [
@@ -1122,7 +1554,7 @@
     "Review": ""
   },
   {
-    "id": 53,
+    "id": 73,
     "Song": "BiiiG",
     "Artist": "Bigbang",
     "Artists": [
@@ -1144,7 +1576,7 @@
     "Review": ""
   },
   {
-    "id": 54,
+    "id": 74,
     "Song": "Chuyến Tàu Hoàng Hôn",
     "Artist": "Lệ Quyên",
     "Artists": [
@@ -1165,7 +1597,7 @@
     "Review": ""
   },
   {
-    "id": 55,
+    "id": 75,
     "Song": "Knee Socks",
     "Artist": "Arctic Monkeys",
     "Artists": [
@@ -1187,7 +1619,7 @@
     "Review": ""
   },
   {
-    "id": 56,
+    "id": 76,
     "Song": "Tiramisu",
     "Artist": "Don Toliver",
     "Artists": [
@@ -1209,7 +1641,7 @@
     "Review": ""
   },
   {
-    "id": 57,
+    "id": 77,
     "Song": "Базовый минимум(Bare Minimum)",
     "Artist": "Sabi, MIA BOYKA",
     "Artists": [
@@ -1231,7 +1663,7 @@
     "Review": ""
   },
   {
-    "id": 58,
+    "id": 78,
     "Song": "Stay",
     "Artist": "The Kid LAROI, Justin Bieber",
     "Artists": [
@@ -1253,7 +1685,7 @@
     "Review": ""
   },
   {
-    "id": 59,
+    "id": 79,
     "Song": "还是会想你",
     "Artist": "林达浪/h3R3",
     "Artists": [
@@ -1275,7 +1707,7 @@
     "Review": ""
   },
   {
-    "id": 60,
+    "id": 80,
     "Song": "Loser",
     "Artist": "Tame Impala",
     "Artists": [
@@ -1297,7 +1729,7 @@
     "Review": ""
   },
   {
-    "id": 61,
+    "id": 81,
     "Song": "Nicole Kidman",
     "Artist": "ADÉLA",
     "Artists": [
@@ -1318,7 +1750,7 @@
     "Review": ""
   },
   {
-    "id": 62,
+    "id": 82,
     "Song": "Natural",
     "Artist": "Imagine Dragons",
     "Artists": [
@@ -1339,7 +1771,7 @@
     "Review": ""
   },
   {
-    "id": 63,
+    "id": 83,
     "Song": "Yukon",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1361,7 +1793,7 @@
     "Review": ""
   },
   {
-    "id": 64,
+    "id": 84,
     "Song": "Sing Me To Sleep",
     "Artist": "Alan Walker",
     "Artists": [
@@ -1382,7 +1814,7 @@
     "Review": ""
   },
   {
-    "id": 65,
+    "id": 85,
     "Song": "Favourite Girl",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1404,7 +1836,7 @@
     "Review": ""
   },
   {
-    "id": 66,
+    "id": 86,
     "Song": "What is love",
     "Artist": "Twice",
     "Artists": [
@@ -1426,7 +1858,7 @@
     "Review": ""
   },
   {
-    "id": 67,
+    "id": 87,
     "Song": "We dont talk anymore",
     "Artist": "Charlie Puth",
     "Artists": [
@@ -1447,7 +1879,7 @@
     "Review": ""
   },
   {
-    "id": 68,
+    "id": 88,
     "Song": "Intentions(Acoustic)",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1469,7 +1901,317 @@
     "Review": ""
   },
   {
-    "id": 69,
+    "id": 89,
+    "Song": "Có chắc yêu là đây",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Có Chắc Yêu Là Đây - Single",
+    "Score": 7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=C%C3%B3+ch%E1%BA%AFc+y%C3%AAu+l%C3%A0+%C4%91%C3%A2y&artist=S%C6%A1n+T%C3%B9ng+MTP&album=C%C3%B3+Ch%E1%BA%AFc+Y%C3%AAu+L%C3%A0+%C4%90%C3%A2y+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 90,
+    "Song": "Boyfriend",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Believe",
+    "Score": 7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Boyfriend&artist=Justin+Bieber&album=Believe",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 91,
+    "Song": "Sorry",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Purpose",
+    "Score": 7.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "Electronic/Dance"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Sorry&artist=Justin+Bieber&album=Purpose",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 92,
+    "Song": "Vài Lần Đón Đưa",
+    "Artist": "Soobin Hoàng Sơn",
+    "Artists": [
+      "Soobin Hoàng Sơn"
+    ],
+    "Album / Release": "Vài Lần Đón Đưa - Single",
+    "Score": 7.7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=V%C3%A0i+L%E1%BA%A7n+%C4%90%C3%B3n+%C4%90%C6%B0a&artist=Soobin+Ho%C3%A0ng+S%C6%A1n&album=V%C3%A0i+L%E1%BA%A7n+%C4%90%C3%B3n+%C4%90%C6%B0a+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 93,
+    "Song": "Heartbreaker",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Journals",
+    "Score": 7.7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Heartbreaker&artist=Justin+Bieber&album=Journals",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 94,
+    "Song": "Trò Chơi",
+    "Artist": "Soobin Hoàng Sơn",
+    "Artists": [
+      "Soobin Hoàng Sơn"
+    ],
+    "Album / Release": "The Playah",
+    "Score": 7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Tr%C3%B2+Ch%C6%A1i&artist=Soobin+Ho%C3%A0ng+S%C6%A1n&album=The+Playah",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 95,
+    "Song": "Confident",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Journals",
+    "Score": 7.4,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Confident&artist=Justin+Bieber&album=Journals",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 96,
+    "Song": "Chạy Ngay Đi",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Chạy Ngay Đi - Single",
+    "Score": 7.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Ch%E1%BA%A1y+Ngay+%C4%90i&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Ch%E1%BA%A1y+Ngay+%C4%90i+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 97,
+    "Song": "Yummy",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Changes",
+    "Score": 7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Yummy&artist=Justin+Bieber&album=Changes",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 98,
+    "Song": "Chúng Ta Của Hiện Tại",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Chúng Ta Của Hiện Tại - Single",
+    "Score": 7.4,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Ch%C3%BAng+Ta+C%E1%BB%A7a+Hi%E1%BB%87n+T%E1%BA%A1i&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Ch%C3%BAng+Ta+C%E1%BB%A7a+Hi%E1%BB%87n+T%E1%BA%A1i+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 99,
+    "Song": "Loved By You",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Justice",
+    "Score": 7.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Loved+By+You&artist=Justin+Bieber&album=Justice",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 100,
+    "Song": "Bad Guy",
+    "Artist": "Billie Eilish",
+    "Artists": [
+      "Billie Eilish"
+    ],
+    "Album / Release": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+    "Score": 7.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Bad+Guy&artist=Billie+Eilish&album=WHEN+WE+ALL+FALL+ASLEEP%2C+WHERE+DO+WE+GO%3F",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 101,
+    "Song": "Snooze (Acoustic)",
+    "Artist": "SZA, Justin Bieber",
+    "Artists": [
+      "SZA",
+      "Justin Bieber"
+    ],
+    "Album / Release": "Snooze (Acoustic) (feat. Justin Bieber) - Single",
+    "Score": 7.4,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul",
+      "Acoustic Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Snooze+%28Acoustic%29&artist=SZA%2C+Justin+Bieber&album=Snooze+%28Acoustic%29+%28feat.+Justin+Bieber%29+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 102,
+    "Song": "Ngày Mai Em Đi",
+    "Artist": "Lê Hiếu, Soobin Hoàng Sơn, Touliver",
+    "Artists": [
+      "Lê Hiếu",
+      "Soobin Hoàng Sơn",
+      "Touliver"
+    ],
+    "Album / Release": "Ngày Mai Em Đi - Single",
+    "Score": 7.1,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Ng%C3%A0y+Mai+Em+%C4%90i&artist=L%C3%AA+Hi%E1%BA%BFu%2C+Soobin+Ho%C3%A0ng+S%C6%A1n%2C+Touliver&album=Ng%C3%A0y+Mai+Em+%C4%90i+-+Single",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 103,
     "Song": "Loser",
     "Artist": "Bigbang",
     "Artists": [
@@ -1491,7 +2233,7 @@
     "Review": ""
   },
   {
-    "id": 70,
+    "id": 104,
     "Song": "Habitual",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1513,14 +2255,14 @@
     "Review": ""
   },
   {
-    "id": 71,
+    "id": 105,
     "Song": "Ghost",
     "Artist": "Justin Bieber",
     "Artists": [
       "Justin Bieber"
     ],
     "Album / Release": "Justice",
-    "Score": 8.8,
+    "Score": 8.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1535,7 +2277,7 @@
     "Review": ""
   },
   {
-    "id": 72,
+    "id": 106,
     "Song": "Walking Away",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1557,7 +2299,7 @@
     "Review": ""
   },
   {
-    "id": 73,
+    "id": 107,
     "Song": "Cold Water",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1579,7 +2321,7 @@
     "Review": ""
   },
   {
-    "id": 74,
+    "id": 108,
     "Song": "Smile Mona Lisa",
     "Artist": "will.i.am",
     "Artists": [
@@ -1601,7 +2343,7 @@
     "Review": ""
   },
   {
-    "id": 75,
+    "id": 109,
     "Song": "Nuevayol",
     "Artist": "Bad Bunny",
     "Artists": [
@@ -1622,7 +2364,7 @@
     "Review": ""
   },
   {
-    "id": 76,
+    "id": 110,
     "Song": "昨夜风今宵月",
     "Artist": "庄淇玟 29",
     "Artists": [
@@ -1643,7 +2385,7 @@
     "Review": ""
   },
   {
-    "id": 77,
+    "id": 111,
     "Song": "What Do You Mean",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1665,7 +2407,7 @@
     "Review": ""
   },
   {
-    "id": 78,
+    "id": 112,
     "Song": "Demons",
     "Artist": "Imagine Dragons",
     "Artists": [
@@ -1686,7 +2428,7 @@
     "Review": ""
   },
   {
-    "id": 79,
+    "id": 113,
     "Song": "La La La",
     "Artist": "Sam Smith",
     "Artists": [
@@ -1708,7 +2450,7 @@
     "Review": ""
   },
   {
-    "id": 80,
+    "id": 114,
     "Song": "Open Arms",
     "Artist": "SZA",
     "Artists": [
@@ -1730,7 +2472,7 @@
     "Review": ""
   },
   {
-    "id": 81,
+    "id": 115,
     "Song": "GO",
     "Artist": "Cortis",
     "Artists": [
@@ -1752,7 +2494,72 @@
     "Review": ""
   },
   {
-    "id": 82,
+    "id": 116,
+    "Song": "Petting Zoo",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "SWAG II",
+    "Score": 8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": "/api/cover?song=Petting+Zoo&artist=Justin+Bieber&album=SWAG+II",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 117,
+    "Song": "All That Matters",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Journals",
+    "Score": 8.1,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Great",
+    "Cover": "/api/cover?song=All+That+Matters&artist=Justin+Bieber&album=Journals",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 118,
+    "Song": "The Real Slim Shady",
+    "Artist": "Eminem",
+    "Artists": [
+      "Eminem"
+    ],
+    "Album / Release": "The Marshall Mathers LP",
+    "Score": 8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Great",
+    "Cover": "/api/cover?song=The+Real+Slim+Shady&artist=Eminem&album=The+Marshall+Mathers+LP",
+    "Verdict": "",
+    "Review": ""
+  },
+  {
+    "id": 119,
     "Song": "Without Me",
     "Artist": "Eminem",
     "Artists": [
@@ -1769,12 +2576,12 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Insane",
-    "Cover": "/covers/Eminem_-_Without_Me.jpg",
+    "Cover": "/api/cover?song=Without+Me&artist=Eminem&album=The+Eminem+Show",
     "Verdict": "",
     "Review": ""
   },
   {
-    "id": 83,
+    "id": 120,
     "Song": "Bae Bae",
     "Artist": "Bigbang",
     "Artists": [
@@ -1791,12 +2598,12 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Insane",
-    "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgex2fAmkNn6zISEcjzxwi1NYdnXiHzvKggQM6OpplWjdbsSeFyTqCfQ&s=10",
+    "Cover": "/api/cover?song=Bae+Bae&artist=Bigbang&album=M+%2F+MADE",
     "Verdict": "",
     "Review": ""
   },
   {
-    "id": 84,
+    "id": 121,
     "Song": "Chạy ngay đi (Onion remix)",
     "Artist": "Sơn Tùng MTP",
     "Artists": [
@@ -1813,12 +2620,12 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Insane",
-    "Cover": "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/e/d/1/9/ed1923a6392fb0da3fce95eabd41d191.jpg",
+    "Cover": "/api/cover?song=Ch%E1%BA%A1y+ngay+%C4%91i+%28Onion+remix%29&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Ch%E1%BA%A1y+Ngay+%C4%90i+%28Onionn+Remix%29+-+Single",
     "Verdict": "",
     "Review": ""
   },
   {
-    "id": 85,
+    "id": 122,
     "Song": "Flatline",
     "Artist": "Justin Bieber",
     "Artists": [
@@ -1835,7 +2642,7 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Insane",
-    "Cover": "https://images.genius.com/9750e05697cc1dc763a947cd7da32e83.1000x1000x1.png",
+    "Cover": "/api/cover?song=Flatline&artist=Justin+Bieber&album=Journals",
     "Verdict": "",
     "Review": ""
   }

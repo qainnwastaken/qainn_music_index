@@ -199,11 +199,12 @@ function renderSong(song) {
   song.Cover && song.Cover.trim()
     ? `background-image:url('${song.Cover}');background-size:cover;background-position:center;`
     : `background:linear-gradient(145deg,hsl(${hue} 35% 26%),#0f1014 72%);`
-}">${song.Cover && song.Cover.trim()
-  ? ''
-  : `<div class="letter">${escapeHtml((song.Song||'?').trim()[0]?.toUpperCase()||'?')}</div>`
-}<div><div class="kicker">EDITORIAL SCORE</div><div class="score">${fmt(song.Score)}</div></div></div>
-      <div class="detail-meta">
+}">
+  ${song.Cover && song.Cover.trim()
+    ? ''
+    : `<div class="letter">${escapeHtml((song.Song||'?').trim()[0]?.toUpperCase()||'?')}</div>`
+  }
+</div>
         <div class="kicker">${tier(song.Score)} · ${songChallenges(song.id).length} challenge${songChallenges(song.id).length===1?'':'s'}</div>
         <h1>${escapeHtml(song.Song)}</h1>
         <div class="detail-artist">${escapeHtml(song.Artist||'Unknown artist')}</div>

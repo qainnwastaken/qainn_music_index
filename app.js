@@ -71,7 +71,7 @@ function renderHome(){
     <section class="hero-grid">
       <div class="hero-main">
         <div class="kicker">Pop / production / originality</div>
-        <h1>Rate the record.<br><span>Defend the score.</span></h1>
+        <h1>Not every hit<br><span>deserves an 8.</span></h1>
         <p>A music criticism project built around identity: melody that sticks, production that feels alive, original decisions, vocal character, and moments you cannot replace with another song.</p>
         <div class="hero-actions"><a class="btn btn-primary" href="#library">Explore the library</a><a class="btn btn-secondary" href="#philosophy">Read the scoring philosophy</a></div>
       </div>

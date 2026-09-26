@@ -25,6 +25,15 @@ function tier(score) {
   if (score >= 4) return 'Mediocre';
   return 'Failed';
 }
+function scoreClass(score) {
+  const n = Number(score);
+  if (n >= 9) return 'score-9';
+  if (n >= 8) return 'score-8';
+  if (n >= 7) return 'score-7';
+  if (n >= 6) return 'score-6';
+  if (n >= 5) return 'score-5';
+  return 'score-low';
+}
 function tierCopy(score) {
   if (score >= 9) return 'A benchmark record: unmistakable identity, exceptional execution, memorable peaks.';
   if (score >= 8) return 'It has a fingerprint. This song is this song — hard to substitute, hard to forget.';
@@ -61,10 +70,12 @@ if (song.Cover && song.Cover.trim()) {
   cover.style.backgroundImage = `url("${song.Cover}")`;
   cover.style.backgroundSize = 'cover';
   cover.style.backgroundPosition = 'center';
+  cover.classList.add('has-cover');
+  tpl.querySelector('.cover-initial').style.display = 'none';
 } else {
-  cover.style.background = `linear-gradient(145deg, hsl(${hue} 35% 26%), #101116 70%)`;
-}
+  cover.style.background = `linear-gradient(145deg, hsl(${hue} 55% 72%), hsl(${hue} 45% 52%) 70%)`;
   tpl.querySelector('.cover-initial').textContent = (song.Song || '?').trim()[0]?.toUpperCase() || '?';
+}
   tpl.querySelector('.cover-score').textContent = fmt(song.Score);
   tpl.querySelector('.score-badge').textContent = `${fmt(song.Score)} / 10`;
   tpl.querySelector('.tier-label').textContent = tier(song.Score);
@@ -206,12 +217,10 @@ function renderSong(song) {
   }
 </div>
 <div class="detail-meta">
-  <div style="display:flex;align-items:flex-end;gap:14px;margin-bottom:14px">
-  <div style="font-size:72px;line-height:.9;font-weight:900;color:#dfff37">
-    ${fmt(song.Score)}
+  <div class="editorial-score-wrap">
+    <div class="editorial-score ${scoreClass(song.Score)}">${fmt(song.Score)}</div>
+    <div class="editorial-score-meta"><span>/10</span><strong>EDITORIAL SCORE</strong></div>
   </div>
-  <div class="kicker" style="padding-bottom:10px">EDITORIAL SCORE / 10</div>
-</div>
         <div class="kicker">${tier(song.Score)} · ${songChallenges(song.id).length} challenge${songChallenges(song.id).length===1?'':'s'}</div>
         <h1>${escapeHtml(song.Song)}</h1>
         <div class="detail-artist">${escapeHtml(song.Artist||'Unknown artist')}</div>

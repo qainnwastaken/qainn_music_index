@@ -161,3 +161,140 @@ textarea.control { min-height:150px; resize:vertical; }
   .site-footer { flex-direction:column; gap:8px; }
   .footer-right { display:none; }
 }
+
+/* --- QAINN v1.1: airy blue publication theme + tiered editorial scores --- */
+:root {
+  --bg: #eaf6ff;
+  --panel: rgba(255,255,255,.82);
+  --panel-2: #f5faff;
+  --text: #10243a;
+  --muted: #667b90;
+  --line: rgba(39,91,131,.16);
+  --accent: #2d7ff9;
+  --accent-soft: rgba(45,127,249,.10);
+  --hot: #ff5f87;
+  --blue: #5aa9ff;
+}
+
+body {
+  color: var(--text);
+  background:
+    radial-gradient(circle at 82% -8%, rgba(78,169,255,.34), transparent 34rem),
+    radial-gradient(circle at 8% 18%, rgba(164,223,255,.52), transparent 31rem),
+    linear-gradient(180deg, #eef9ff 0%, #e6f4ff 44%, #dff1ff 100%);
+}
+.noise { opacity: .018; mix-blend-mode:multiply; }
+.site-header {
+  background: rgba(239,249,255,.82);
+  border-bottom-color: rgba(43,94,132,.12);
+  box-shadow: 0 8px 30px rgba(46,100,140,.07);
+}
+.brand-mark { color:#fff; background:linear-gradient(145deg,#1d6fe5,#55b9ff); box-shadow:0 8px 22px rgba(29,111,229,.22); }
+.count-pill { color:#fff; }
+.hero-main, .hero-side, .panel, .song-card, .philosophy-card {
+  background: rgba(255,255,255,.80);
+  box-shadow: 0 16px 45px rgba(51,105,145,.09);
+}
+.hero-main::after { color:rgba(33,97,145,.055); }
+.hero p, .detail-verdict { color:#4e6579; }
+.btn { background:rgba(255,255,255,.72); }
+.btn:hover { border-color:rgba(45,127,249,.36); box-shadow:0 8px 20px rgba(45,127,249,.10); }
+.btn-primary { color:#fff; box-shadow:0 9px 22px rgba(45,127,249,.18); }
+.stat-big, .mini-stat, .control, .scale-item, .challenge-card { background:rgba(244,250,255,.88); }
+th { background:#edf7ff; }
+tr[data-song-id]:hover td { background:rgba(88,170,236,.08); }
+.cover-art { background:linear-gradient(145deg,#a9d9ff,#72baf4); }
+.cover-art::before { background:rgba(255,255,255,.24); }
+.cover-art.has-cover::before { display:none; }
+.cover-score { background:rgba(13,40,62,.58); color:#fff; }
+.score-badge, .score-cell, .kicker { color:var(--accent); }
+.score-bar { background:#d7e9f7; }
+.score-bar i { background:linear-gradient(90deg,#48a8ff,#2d7ff9); }
+.tag { background:rgba(255,255,255,.52); color:#50677d; }
+.detail-cover { background:linear-gradient(145deg,#a9dcff,#6eb8f3); box-shadow:0 18px 46px rgba(48,103,145,.14); }
+.callout { border-color:rgba(45,127,249,.22); background:rgba(45,127,249,.08); }
+.callout strong { color:#1d6fe5; }
+.site-footer { border-top-color:rgba(43,94,132,.14); }
+.toast { background:#12304a; color:#fff; }
+
+.editorial-score-wrap {
+  display:flex;
+  align-items:flex-end;
+  gap:16px;
+  min-height:86px;
+  margin:0 0 18px;
+}
+.editorial-score {
+  display:inline-block;
+  font-size:clamp(64px,7vw,92px);
+  line-height:.78;
+  font-weight:950;
+  letter-spacing:-.075em;
+  font-style:italic;
+  transform:skewX(-7deg);
+  transform-origin:left bottom;
+  padding-right:.08em;
+}
+.editorial-score-meta {
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  padding-bottom:4px;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-size:10px;
+  color:var(--muted);
+}
+.editorial-score-meta span {
+  font-size:17px;
+  line-height:1;
+  letter-spacing:-.02em;
+  color:#46637d;
+  font-weight:900;
+}
+.editorial-score-meta strong { color:#28455e; }
+
+/* 9+: electric neon, reserved for the ceiling */
+.editorial-score.score-9 {
+  background:linear-gradient(120deg,#b7ff38 4%,#39f5ff 48%,#2d7ff9 84%,#b7ff38 100%);
+  background-size:180% 180%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:0 0 12px rgba(57,245,255,.28), 0 0 28px rgba(183,255,56,.20);
+  animation:qainnScoreGlow 5s ease-in-out infinite;
+}
+/* 8s: icy chrome / premium sheen */
+.editorial-score.score-8 {
+  background:linear-gradient(115deg,#6f8ea7 0%,#ffffff 24%,#8ccaff 48%,#f9fdff 66%,#6c91b0 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:0 8px 24px rgba(54,118,168,.12);
+}
+/* 7s: warm gold */
+.editorial-score.score-7 {
+  background:linear-gradient(120deg,#b77d19,#ffd56a 44%,#fff1b6 58%,#c88b22);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+/* 6s: clean electric blue */
+.editorial-score.score-6 { color:#2d7ff9; text-shadow:0 8px 22px rgba(45,127,249,.15); }
+/* 5s: cool slate */
+.editorial-score.score-5 { color:#71879a; }
+/* <5: coral warning */
+.editorial-score.score-low { color:#e85f78; }
+
+@keyframes qainnScoreGlow {
+  0%,100% { background-position:0% 50%; filter:saturate(1); }
+  50% { background-position:100% 50%; filter:saturate(1.2); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .editorial-score.score-9 { animation:none; }
+}
+@media (max-width:620px) {
+  .editorial-score-wrap { align-items:flex-start; }
+  .editorial-score { font-size:68px; }
+}

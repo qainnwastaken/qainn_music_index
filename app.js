@@ -1,298 +1,239 @@
+const app = document.getElementById('app');
+const nav = document.getElementById('mainNav');
+const menuButton = document.getElementById('menuButton');
+const challengeCount = document.getElementById('challengeCount');
+
 const state = {
   songs: [],
-  route: 'home',
-  challenges: JSON.parse(localStorage.getItem('qainnChallenges') || '[]'),
+  challenges: JSON.parse(localStorage.getItem('qainnChallenges') || '[]')
 };
 
-const app = document.getElementById('app');
-const challengeCount = document.getElementById('challengeCount');
-const menuButton = document.getElementById('menuButton');
-const nav = document.querySelector('.nav');
+const TIER_ORDER = ['Perfect','Insane','Great','Good','Listenable',"It's a song",'Mediocre','Failed'];
 
-menuButton.addEventListener('click', () => nav.classList.toggle('open'));
-window.addEventListener('hashchange', renderRoute);
+function escapeHtml(value='') {
+  return String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+}
+function fmt(n){ const x=Number(n); return Number.isInteger(x) ? String(x) : x.toFixed(1); }
+function slug(s=''){ return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+function tier(score){
+  const s=Number(score);
+  if(s>=10) return 'Perfect'; if(s>=9) return 'Insane'; if(s>=8) return 'Great'; if(s>=7) return 'Good'; if(s>=6) return 'Listenable'; if(s>=5) return "It's a song"; if(s>=4) return 'Mediocre'; return 'Failed';
+}
+function tierCopy(score){
+  const s=Number(score);
+  if(s>=9) return 'A benchmark record: unmistakable identity, exceptional execution, memorable peaks.';
+  if(s>=8) return 'Distinctive enough to stand on its own. A record with a real fingerprint.';
+  if(s>=7) return 'Good. The song works, earns replay value, and has something worth returning to.';
+  if(s>=6) return 'Listenably competent, with worthwhile ideas, but not fully convincing.';
+  if(s>=5) return 'Functional as a song, but it needs more identity or stronger moments.';
+  return 'The record does not justify itself on this scale.';
+}
+function scoreClass(score){ const n=Number(score); if(n>=9)return 'score-9'; if(n>=8)return 'score-8'; if(n>=7)return 'score-7'; if(n>=6)return 'score-6'; if(n>=5)return 'score-5'; return 'score-low'; }
+function scoreCard(score){ return `<div class="editorial-score-card"><div class="editorial-score ${scoreClass(score)}">${fmt(score)}</div><div><div style="font-weight:950">/10</div><div class="score-label">Editorial score</div></div></div>`; }
+function songChallenges(id){ return state.challenges.filter(c=>Number(c.songId)===Number(id)); }
+function saveChallenges(){ localStorage.setItem('qainnChallenges',JSON.stringify(state.challenges)); challengeCount.textContent=state.challenges.length; }
+function avg(items){ return items.length ? items.reduce((a,b)=>a+Number(b.Score),0)/items.length : 0; }
+function median(items){ if(!items.length)return 0; const a=items.map(x=>Number(x.Score)).sort((x,y)=>x-y); const m=Math.floor(a.length/2); return a.length%2?a[m]:(a[m-1]+a[m])/2; }
+function uniqueSorted(arr){ return [...new Set(arr.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b))); }
+function setActive(route){ document.querySelectorAll('[data-nav]').forEach(a=>a.classList.toggle('active',route.startsWith(a.dataset.nav))); nav.classList.remove('open'); }
+function toast(message){ let n=document.querySelector('.toast'); if(!n){n=document.createElement('div');n.className='toast';document.body.appendChild(n)} n.textContent=message; n.hidden=false; clearTimeout(n._t);n._t=setTimeout(()=>n.remove(),2400); }
+function coverStyle(song){ if(song.Cover) return `background-image:url('${song.Cover}');`; const hue=(song.id*47)%360; return `background:linear-gradient(145deg,hsl(${hue} 55% 55%),hsl(${(hue+70)%360} 45% 64%));`; }
+function initials(song){ return escapeHtml((song.Song||'?').trim()[0]?.toUpperCase()||'?'); }
 
-function slugify(text='') {
-  return text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
-}
-function songSlug(song) { return `${slugify(song.Song)}-${song.id}`; }
-function tier(score) {
-  if (score >= 9) return 'Insane';
-  if (score >= 8) return 'Great';
-  if (score >= 7) return 'Good';
-  if (score >= 6) return 'Listenable';
-  if (score >= 5) return "It's a song";
-  if (score >= 4) return 'Mediocre';
-  return 'Failed';
-}
-function scoreClass(score) {
-  const n = Number(score);
-  if (n >= 9) return 'score-9';
-  if (n >= 8) return 'score-8';
-  if (n >= 7) return 'score-7';
-  if (n >= 6) return 'score-6';
-  if (n >= 5) return 'score-5';
-  return 'score-low';
-}
-function tierCopy(score) {
-  if (score >= 9) return 'A benchmark record: unmistakable identity, exceptional execution, memorable peaks.';
-  if (score >= 8) return 'It has a fingerprint. This song is this song — hard to substitute, hard to forget.';
-  if (score >= 7) return 'A genuinely good record: replayable, convincing, and worth returning to.';
-  if (score >= 6.8) return 'Clears the replay line. There is enough here to actively choose it again.';
-  if (score >= 6) return 'Competent and listenable, but it does not fully click yet.';
-  if (score >= 5) return 'It functions as a song, but does not create enough pull or identity.';
-  if (score >= 4) return 'Some ideas work, but the record feels weak or replaceable overall.';
-  return 'The record fails to justify itself on this scale.';
-}
-function fmt(n) { return Number(n).toFixed(Number(n)%1===0 ? 1 : 1); }
-function songChallenges(songId) { return state.challenges.filter(c => c.songId === songId); }
-function saveChallenges() {
-  localStorage.setItem('qainnChallenges', JSON.stringify(state.challenges));
-  challengeCount.textContent = state.challenges.length;
-}
-function setActiveNav(route) {
-  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('active', a.dataset.nav === route));
-  nav.classList.remove('open');
-}
-function toast(message) {
-  let node = document.querySelector('.toast');
-  if (!node) { node = document.createElement('div'); node.className='toast'; document.body.appendChild(node); }
-  node.textContent = message; node.classList.add('show'); setTimeout(()=>node.classList.remove('show'), 2200);
-}
-function makeCard(song) {
-  const tpl = document.getElementById('songCardTemplate').content.cloneNode(true);
-  const card = tpl.querySelector('.song-card');
-  const btn = tpl.querySelector('.song-card-link');
-  const hue = (song.id * 47) % 360;
- const cover = tpl.querySelector('.cover-art');
-
-if (song.Cover && song.Cover.trim()) {
-  cover.style.backgroundImage = `url("${song.Cover}")`;
-  cover.style.backgroundSize = 'cover';
-  cover.style.backgroundPosition = 'center';
-  cover.classList.add('has-cover');
-  tpl.querySelector('.cover-initial').style.display = 'none';
-} else {
-  cover.style.background = `linear-gradient(145deg, hsl(${hue} 55% 72%), hsl(${hue} 45% 52%) 70%)`;
-  tpl.querySelector('.cover-initial').textContent = (song.Song || '?').trim()[0]?.toUpperCase() || '?';
-}
-  tpl.querySelector('.cover-score').textContent = fmt(song.Score);
-  tpl.querySelector('.score-badge').textContent = `${fmt(song.Score)} / 10`;
-  tpl.querySelector('.tier-label').textContent = tier(song.Score);
-  tpl.querySelector('.song-title').textContent = song.Song;
-  tpl.querySelector('.song-artist').textContent = song.Artist || 'Unknown artist';
-  btn.addEventListener('click', () => location.hash = `song/${songSlug(song)}`);
-  card.dataset.songId = song.id;
+function makeCard(song){
+  const tpl=document.getElementById('songCardTemplate').content.cloneNode(true);
+  const btn=tpl.querySelector('.song-card-link');
+  const cover=tpl.querySelector('.cover-art');
+  cover.style.cssText += coverStyle(song);
+  if(song.Cover) tpl.querySelector('.cover-initial').textContent=''; else tpl.querySelector('.cover-initial').textContent=initials(song);
+  tpl.querySelector('.cover-score').textContent=fmt(song.Score);
+  tpl.querySelector('.score-badge').textContent=fmt(song.Score);
+  tpl.querySelector('.score-badge').classList.add(scoreClass(song.Score));
+  tpl.querySelector('.tier-label').textContent=tier(song.Score);
+  tpl.querySelector('.song-title').textContent=song.Song;
+  tpl.querySelector('.song-artist').textContent=song.Artist || 'Unknown artist';
+  tpl.querySelector('.song-release').textContent=song['Album / Release'] || 'Unknown release';
+  btn.addEventListener('click',()=>location.hash=`song/${slug(song.Song)}-${song.id}`);
   return tpl;
 }
+function cardGrid(items){
+  if(!items.length) return `<div class="empty-state">No records match this view.</div>`;
+  const wrap=document.createElement('div');wrap.className='card-grid';items.forEach(s=>wrap.appendChild(makeCard(s)));return wrap.outerHTML;
+}
+function renderCardsInto(selector,items){ const node=document.querySelector(selector); if(!node)return; node.innerHTML=''; if(!items.length){node.innerHTML='<div class="empty-state">No records match this view.</div>';return;} items.forEach(s=>node.appendChild(makeCard(s))); }
 
-function renderHome() {
-  const scores = state.songs.map(s => Number(s.Score));
-  const avg = scores.reduce((a,b)=>a+b,0)/scores.length;
-  const sortedScores = [...scores].sort((a,b)=>a-b);
-  const median = sortedScores.length % 2 ? sortedScores[(sortedScores.length-1)/2] : (sortedScores[sortedScores.length/2-1]+sortedScores[sortedScores.length/2])/2;
-  const replay = state.songs.filter(s => Number(s.Score) >= 6.8).length;
-  const top = [...state.songs].sort((a,b)=>Number(b.Score)-Number(a.Score)).slice(0,8);
-  const identity = state.songs.filter(s => Number(s.Score)>=8).length;
-
-  app.innerHTML = `
-    <section class="hero">
+function renderHome(){
+  const scores=state.songs.map(s=>Number(s.Score));
+  const top=[...state.songs].sort((a,b)=>Number(b.Score)-Number(a.Score)).slice(0,8);
+  const replay=state.songs.filter(s=>Number(s.Score)>=6.8).length;
+  const great=state.songs.filter(s=>Number(s.Score)>=8).length;
+  app.innerHTML=`
+    <section class="hero-grid">
       <div class="hero-main">
-        <div>
-          <div class="kicker">POP / PRODUCTION / ORIGINALITY</div>
-          <h1>Rate the record.<br><em>Defend the score.</em></h1>
-          <p>A music criticism project built around identity: melody that sticks, production that feels alive, original decisions, vocal character, and moments you cannot replace with another song.</p>
-        </div>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#leaderboard">Explore the leaderboard</a>
-          <a class="btn" href="#philosophy">Read the scoring philosophy</a>
-        </div>
+        <div class="kicker">Pop / production / originality</div>
+        <h1>Rate the record.<br><span>Defend the score.</span></h1>
+        <p>A music criticism project built around identity: melody that sticks, production that feels alive, original decisions, vocal character, and moments you cannot replace with another song.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#library">Explore the library</a><a class="btn btn-secondary" href="#philosophy">Read the scoring philosophy</a></div>
       </div>
-      <aside class="hero-side">
-        <div class="stat-big"><div class="num">${state.songs.length}</div><div class="label">songs currently rated</div></div>
-        <div class="mini-stats">
-          <div class="mini-stat"><strong>${avg.toFixed(2)}</strong><span>average score</span></div>
-          <div class="mini-stat"><strong>${median.toFixed(1)}</strong><span>median score</span></div>
-          <div class="mini-stat"><strong>${replay}</strong><span>at / above 6.8 replay line</span></div>
-          <div class="mini-stat"><strong>${identity}</strong><span>records in the 8+ identity tier</span></div>
-        </div>
-        <div class="callout"><strong>Community rule:</strong> disagree all you want — but make the argument. A good challenge can trigger a re-listen and a score revision.</div>
+      <aside class="hero-stats">
+        <div class="stat-card big"><div class="stat-value">${state.songs.length}</div><div class="stat-label">songs currently rated</div></div>
+        <div class="stat-pair"><div class="stat-card"><div class="stat-value" style="font-size:25px">${avg(state.songs).toFixed(2)}</div><div class="stat-label">average score</div></div><div class="stat-card"><div class="stat-value" style="font-size:25px">${fmt(median(state.songs))}</div><div class="stat-label">median score</div></div></div>
+        <div class="stat-pair"><div class="stat-card"><div class="stat-value" style="font-size:25px">${replay}</div><div class="stat-label">at / above 6.8 replay line</div></div><div class="stat-card"><div class="stat-value" style="font-size:25px">${great}</div><div class="stat-label">records in the 8+ identity tier</div></div></div>
+        <div class="community-note"><strong>Community rule:</strong> disagree all you want — but make the argument. A good challenge can trigger a re-listen and a score revision.</div>
       </aside>
     </section>
-    <section class="section">
-      <div class="section-head"><div><div class="kicker">CURRENT CEILING</div><h2>Highest-scoring records</h2></div><p>Not favorites. Records that survive the criteria.</p></div>
-      <div id="topGrid" class="grid"></div>
-    </section>
-    <section class="section panel">
-      <div class="section-head"><div><div class="kicker">WHY THIS EXISTS</div><h2>“This song is this song.”</h2></div></div>
-      <div class="philosophy-grid">
-        <div class="philosophy-card"><div class="icon">✦</div><h3>Identity over prestige</h3><p>A famous song gets no free points. An 8 needs a fingerprint: something that makes the record non-substitutable.</p></div>
-        <div class="philosophy-card"><div class="icon">◉</div><h3>Production must move</h3><p>Modernity is sonic, not chronological: detail, texture, transitions, low-end, vocal treatment and ear candy matter.</p></div>
-        <div class="philosophy-card"><div class="icon">↯</div><h3>Peaks can carry a song</h3><p>Two or three unforgettable moments can outweigh a weak verse. The review cares about impact, not section-by-section averaging.</p></div>
-      </div>
-    </section>`;
-  const grid = document.getElementById('topGrid');
-  top.forEach(song => grid.appendChild(makeCard(song)));
+    <div class="section-head"><div><div class="kicker">Current ceiling</div><h2>Highest-scoring records</h2></div><p>Not favorites. Records that survive the criteria.</p></div>
+    <div id="homeTop" class="card-grid"></div>
+    <div class="section-head"><div><div class="kicker">Browse deeper</div><h2>Library by identity</h2></div><p>Artists, releases, genres and score tiers.</p></div>
+    <div class="library-groups">
+      <div class="group-card" onclick="location.hash='library?view=artists'"><div class="mini-score">${uniqueSorted(state.songs.map(s=>s.Artist)).length}</div><h3>Artists</h3><p>See every artist, average score and reviewed catalogue.</p></div>
+      <div class="group-card" onclick="location.hash='library?view=albums'"><div class="mini-score">${uniqueSorted(state.songs.map(s=>s['Album / Release'])).length}</div><h3>Albums & releases</h3><p>Browse songs grouped by their release.</p></div>
+      <div class="group-card" onclick="location.hash='library?view=genres'"><div class="mini-score">${uniqueSorted(state.songs.flatMap(s=>s.Genres||[])).length}</div><h3>Genres</h3><p>A practical browsing taxonomy for this index.</p></div>
+    </div>`;
+  renderCardsInto('#homeTop',top);
 }
 
-function renderLeaderboard() {
-  app.innerHTML = `
-    <section class="section-head"><div><div class="kicker">DATABASE</div><h2>Leaderboard</h2></div><p>${state.songs.length} songs from the current rating sheet.</p></section>
-    <section class="panel">
-      <div class="toolbar">
-        <input id="search" class="control" type="search" placeholder="Search song or artist…" />
-        <select id="tierFilter" class="control"><option value="all">All tiers</option><option value="9">9+ Insane</option><option value="8">8–8.9 Great</option><option value="7">7–7.9 Good</option><option value="6">6–6.9 Listenable</option><option value="5">5–5.9</option><option value="under5">Under 5</option></select>
-        <select id="sort" class="control"><option value="score-desc">Score: high to low</option><option value="score-asc">Score: low to high</option><option value="song">Song A–Z</option><option value="artist">Artist A–Z</option></select>
-      </div>
-      <div class="table-wrap"><table><thead><tr><th>#</th><th>Song</th><th>Artist</th><th>Tier</th><th>Score</th><th>Challenges</th></tr></thead><tbody id="leaderRows"></tbody></table></div>
-    </section>`;
-  const search = document.getElementById('search');
-  const filter = document.getElementById('tierFilter');
-  const sort = document.getElementById('sort');
-  [search,filter,sort].forEach(el=>el.addEventListener('input', draw));
-  function draw() {
-    const q = search.value.trim().toLowerCase();
-    let rows = state.songs.filter(s => `${s.Song} ${s.Artist}`.toLowerCase().includes(q));
-    const f=filter.value;
-    if (f==='9') rows=rows.filter(s=>s.Score>=9);
-    if (f==='8') rows=rows.filter(s=>s.Score>=8&&s.Score<9);
-    if (f==='7') rows=rows.filter(s=>s.Score>=7&&s.Score<8);
-    if (f==='6') rows=rows.filter(s=>s.Score>=6&&s.Score<7);
-    if (f==='5') rows=rows.filter(s=>s.Score>=5&&s.Score<6);
-    if (f==='under5') rows=rows.filter(s=>s.Score<5);
-    if(sort.value==='score-desc') rows.sort((a,b)=>b.Score-a.Score||a.Song.localeCompare(b.Song));
-    if(sort.value==='score-asc') rows.sort((a,b)=>a.Score-b.Score||a.Song.localeCompare(b.Song));
-    if(sort.value==='song') rows.sort((a,b)=>a.Song.localeCompare(b.Song));
-    if(sort.value==='artist') rows.sort((a,b)=>(a.Artist||'').localeCompare(b.Artist||''));
-    const body=document.getElementById('leaderRows'); body.innerHTML='';
-    rows.forEach((s,i)=>{
-      const tr=document.createElement('tr'); tr.dataset.songId=s.id;
-      tr.innerHTML=`<td class="rank">${i+1}</td><td><strong>${escapeHtml(s.Song)}</strong></td><td>${escapeHtml(s.Artist||'—')}</td><td>${tier(s.Score)}</td><td class="score-cell">${fmt(s.Score)}<div class="score-bar"><i style="width:${Math.max(2,s.Score*10)}%"></i></div></td><td>${songChallenges(s.id).length}</td>`;
-      tr.addEventListener('click',()=>location.hash=`song/${songSlug(s)}`);
-      body.appendChild(tr);
-    });
+function parseLibraryParams(){
+  const raw=location.hash.split('?')[1]||''; return new URLSearchParams(raw);
+}
+function libraryGroupCards(view){
+  let groups=[];
+  if(view==='artists'){
+    groups=uniqueSorted(state.songs.flatMap(s=>s.Artists||[s.Artist])).map(name=>{const items=state.songs.filter(s=>(s.Artists||[s.Artist]).includes(name));return {name,count:items.length,score:avg(items),hash:`artist/${slug(name)}`};});
+  } else if(view==='albums'){
+    groups=uniqueSorted(state.songs.map(s=>s['Album / Release'])).map(name=>{const items=state.songs.filter(s=>s['Album / Release']===name);return {name,count:items.length,score:avg(items),hash:`album/${slug(name)}`};});
+  } else if(view==='genres'){
+    groups=uniqueSorted(state.songs.flatMap(s=>s.Genres||[])).map(name=>{const items=state.songs.filter(s=>(s.Genres||[]).includes(name));return {name,count:items.length,score:avg(items),hash:`genre/${slug(name)}`};});
+  } else if(view==='tiers'){
+    groups=TIER_ORDER.map(name=>{const items=state.songs.filter(s=>tier(s.Score)===name);return {name,count:items.length,score:avg(items),hash:`tier/${slug(name)}`};}).filter(x=>x.count);
   }
-  draw();
+  if(!groups.length)return '';
+  return `<div class="library-groups">${groups.map(g=>`<div class="group-card" onclick="location.hash='${g.hash}'"><div class="mini-score">${g.count}</div><h3>${escapeHtml(g.name)}</h3><p>Average ${g.score.toFixed(2)} · ${g.count} ${g.count===1?'record':'records'}</p></div>`).join('')}</div>`;
+}
+function renderLibrary(){
+  const params=parseLibraryParams(); const initialView=params.get('view')||'songs';
+  const artists=uniqueSorted(state.songs.flatMap(s=>s.Artists||[s.Artist])); const albums=uniqueSorted(state.songs.map(s=>s['Album / Release'])); const genres=uniqueSorted(state.songs.flatMap(s=>s.Genres||[]));
+  app.innerHTML=`
+    <div class="section-head" style="margin-top:0"><div><div class="kicker">The index</div><h2>Music library</h2></div><p>Search the catalogue or browse it by context.</p></div>
+    <section class="library-toolbar">
+      <div class="library-controls">
+        <div class="search-wrap"><input id="librarySearch" class="search-input" placeholder="Search song, artist, album, genre…"><span class="search-icon">⌕</span></div>
+        <select id="artistFilter" class="select"><option value="">All artists</option>${artists.map(x=>`<option>${escapeHtml(x)}</option>`).join('')}</select>
+        <select id="genreFilter" class="select"><option value="">All genres</option>${genres.map(x=>`<option>${escapeHtml(x)}</option>`).join('')}</select>
+        <select id="tierFilter" class="select"><option value="">All score tiers</option>${TIER_ORDER.map(x=>`<option>${escapeHtml(x)}</option>`).join('')}</select>
+      </div>
+      <div class="hero-actions" style="margin-top:13px"><button class="btn ${initialView==='songs'?'btn-primary':'btn-secondary'}" data-view="songs">Songs</button><button class="btn ${initialView==='artists'?'btn-primary':'btn-secondary'}" data-view="artists">Artists</button><button class="btn ${initialView==='albums'?'btn-primary':'btn-secondary'}" data-view="albums">Albums</button><button class="btn ${initialView==='genres'?'btn-primary':'btn-secondary'}" data-view="genres">Genres</button><button class="btn ${initialView==='tiers'?'btn-primary':'btn-secondary'}" data-view="tiers">Score tiers</button></div>
+      <div id="resultsMeta" class="results-meta"></div>
+    </section>
+    <div id="libraryResults"></div>`;
+  const q=document.getElementById('librarySearch'), af=document.getElementById('artistFilter'), gf=document.getElementById('genreFilter'), tf=document.getElementById('tierFilter'), result=document.getElementById('libraryResults'), meta=document.getElementById('resultsMeta');
+  let view=initialView;
+  function update(){
+    document.querySelectorAll('[data-view]').forEach(b=>{b.className='btn '+(b.dataset.view===view?'btn-primary':'btn-secondary')});
+    if(view!=='songs' && !q.value && !af.value && !gf.value && !tf.value){ result.innerHTML=libraryGroupCards(view); meta.textContent=`Browse ${view}.`; return; }
+    const needle=q.value.trim().toLowerCase();
+    const filtered=state.songs.filter(s=>{
+      const hay=[s.Song,s.Artist,s['Album / Release'],...(s.Genres||[])].join(' ').toLowerCase();
+      return (!needle||hay.includes(needle)) && (!af.value||(s.Artists||[s.Artist]).includes(af.value)) && (!gf.value||(s.Genres||[]).includes(gf.value)) && (!tf.value||tier(s.Score)===tf.value);
+    }).sort((a,b)=>Number(b.Score)-Number(a.Score));
+    meta.textContent=`${filtered.length} ${filtered.length===1?'record':'records'} found.`;
+    result.innerHTML='<div id="libraryCards" class="card-grid"></div>'; renderCardsInto('#libraryCards',filtered);
+  }
+  [q,af,gf,tf].forEach(el=>el.addEventListener(el===q?'input':'change',update));
+  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view;q.value='';af.value='';gf.value='';tf.value='';update()}));
+  update();
 }
 
-function renderPhilosophy() {
-  app.innerHTML = `
-    <section class="section-head"><div><div class="kicker">EDITORIAL STANDARD</div><h2>The scoring philosophy</h2></div><p>A score is a judgment of the finished record, not its popularity.</p></section>
-    <section class="panel">
-      <div class="callout"><strong>The core test:</strong> does the record click — and does it have a fingerprint? Complexity is optional. Identity is not.</div>
-      <div class="philosophy-grid" style="margin-top:20px">
-        <div class="philosophy-card"><div class="icon">♫</div><h3>Melody</h3><p>A major factor, but not the entire score. Catchiness matters most when the melodic idea feels fresh and survives repeated listening.</p></div>
-        <div class="philosophy-card"><div class="icon">⌁</div><h3>Production identity</h3><p>Sound choice, groove, transitions, spatial design, low-end, ear candy, arrangement and the feeling that the production itself is beautiful.</p></div>
-        <div class="philosophy-card"><div class="icon">◇</div><h3>Originality</h3><p>If the core melody or concept collides too closely with something that already exists, the ceiling drops — even when execution is polished.</p></div>
-        <div class="philosophy-card"><div class="icon">◌</div><h3>Vocal identity</h3><p>A great composition can stop short of the top tier if the vocal character feels replaceable. The voice should belong to the record.</p></div>
-        <div class="philosophy-card"><div class="icon">✺</div><h3>Peak moments</h3><p>Reviews are not arithmetic averages of verse, pre-chorus and chorus. Two unforgettable moments can define the entire experience.</p></div>
-        <div class="philosophy-card"><div class="icon">∞</div><h3>Genre collision</h3><p>Pop becomes more exciting when it borrows intelligently: Latin guitar, R&B phrasing, rock energy, electronic texture, unusual percussion or anything that makes the world bigger.</p></div>
-      </div>
-      <div class="scale">
-        <div class="scale-item"><strong>4</strong><span>Mediocre</span></div>
-        <div class="scale-item"><strong>5</strong><span>It is a song</span></div>
-        <div class="scale-item"><strong>6</strong><span>Listenable</span></div>
-        <div class="scale-item"><strong>6.8</strong><span>Replay line</span></div>
-        <div class="scale-item"><strong>7</strong><span>Good</span></div>
-        <div class="scale-item"><strong>8</strong><span>Distinct identity</span></div>
-        <div class="scale-item"><strong>9</strong><span>Exceptional</span></div>
-      </div>
-    </section>`;
-}
-
-function renderSong(song) {
-  const hue=(song.id*47)%360;
-  const challenges=songChallenges(song.id);
+function findSongFromRoute(route){ const m=route.match(/-(\d+)$/); if(!m)return null; return state.songs.find(s=>Number(s.id)===Number(m[1])); }
+function renderSong(song){
+  if(!song){app.innerHTML='<div class="empty-state">Song not found.</div>';return;}
+  const challenges=songChallenges(song.id); const hue=(song.id*47)%360;
   app.innerHTML=`
     <button class="detail-back" onclick="history.back()">← Back</button>
     <section class="detail-hero">
-      <div class="detail-cover" style="${
-  song.Cover && song.Cover.trim()
-    ? `background-image:url('${song.Cover}');background-size:cover;background-position:center;`
-    : `background:linear-gradient(145deg,hsl(${hue} 35% 26%),#0f1014 72%);`
-}">
-  ${song.Cover && song.Cover.trim()
-    ? ''
-    : `<div class="letter">${escapeHtml((song.Song||'?').trim()[0]?.toUpperCase()||'?')}</div>`
-  }
-</div>
-<div class="detail-meta">
-  <div class="editorial-score-wrap">
-    <div class="editorial-score ${scoreClass(song.Score)}">${fmt(song.Score)}</div>
-    <div class="editorial-score-meta"><span>/10</span><strong>EDITORIAL SCORE</strong></div>
-  </div>
-        <div class="kicker">${tier(song.Score)} · ${songChallenges(song.id).length} challenge${songChallenges(song.id).length===1?'':'s'}</div>
+      <div class="detail-cover" style="${coverStyle(song)}">${song.Cover?'':`<div class="letter">${initials(song)}</div>`}</div>
+      <div class="detail-meta">
+        ${scoreCard(song.Score)}
+        <div class="kicker" style="margin-top:15px">${tier(song.Score)} · ${challenges.length} challenge${challenges.length===1?'':'s'}</div>
         <h1>${escapeHtml(song.Song)}</h1>
-        <div class="detail-artist">${escapeHtml(song.Artist||'Unknown artist')}</div>
-        <div class="tags"><span class="tag">Identity</span><span class="tag">Production</span><span class="tag">Originality</span><span class="tag">Melody</span><span class="tag">Vocal character</span></div>
-        <div class="detail-verdict"><strong>Current verdict.</strong> ${tierCopy(Number(song.Score))} This MVP imports the score from the original rating sheet; the long-form written review can be added later without changing the data model.</div>
+        <div class="detail-artist">${(song.Artists||[song.Artist]).map(a=>`<a href="#artist/${slug(a)}">${escapeHtml(a)}</a>`).join(' · ')}</div>
+        <div class="tags"><a class="tag" href="#album/${slug(song['Album / Release'])}">${escapeHtml(song['Album / Release'])}</a>${(song.Genres||[]).map(g=>`<a class="tag" href="#genre/${slug(g)}">${escapeHtml(g)}</a>`).join('')}</div>
+        <div class="detail-verdict"><strong>Current verdict.</strong> ${tierCopy(Number(song.Score))} ${song.Notes?escapeHtml(song.Notes):'The long-form written review can be added later without changing the data model.'}</div>
       </div>
     </section>
     <section class="challenge-layout">
-      <div class="panel">
-        <div class="kicker">COMMUNITY</div><h2>Challenge this score</h2>
-        <p style="color:var(--muted);line-height:1.6">Do not just say “too low” or “too high.” Make a case that is specific enough to justify a re-listen.</p>
+      <div class="panel"><div class="kicker">Community</div><h2>Challenge this score</h2><p>Do not just say “too low” or “too high.” Make a case specific enough to justify a re-listen.</p>
         <form id="challengeForm" class="form-grid">
-          <div><label>Proposed score</label><input id="proposedScore" class="control" type="number" min="0" max="10" step="0.1" required placeholder="7.4" /></div>
-          <div><label>Main argument</label><select id="argumentType" class="control"><option>Production</option><option>Melody / composition</option><option>Originality</option><option>Vocal identity</option><option>Arrangement / transitions</option><option>Emotional impact</option><option>Other</option></select></div>
-          <div class="full"><label>Your case</label><textarea id="argument" class="control" required minlength="40" placeholder="Explain exactly what the review undervalues. Point to a production choice, melodic idea, structure, vocal moment, or comparison…"></textarea><div class="helper">Minimum 40 characters. The goal is a useful argument, not a vote.</div></div>
-          <div class="full"><label>Specific moment (optional)</label><input id="timestamp" class="control" placeholder="e.g. 2:41 — vocal stack opens up" /></div>
+          <div><label>Proposed score</label><input id="proposedScore" class="control" type="number" min="0" max="10" step="0.1" required placeholder="7.4"></div>
+          <div><label>Main argument</label><select id="argumentType" class="control"><option>Production</option><option>Melody / composition</option><option>Originality</option><option>Vocal identity</option><option>Arrangement</option><option>Lyrics</option><option>Other</option></select></div>
+          <div class="full"><label>Your case</label><textarea id="argument" class="control" required minlength="20" placeholder="Explain exactly what the review undervalues. Point to a production choice, melodic idea, structure, vocal moment, or comparison…"></textarea></div>
+          <div class="full"><label>Specific moment (optional)</label><input id="timestamp" class="control" placeholder="e.g. 2:41 — vocal stack opens up"></div>
           <div class="full"><button class="btn btn-primary" type="submit">Submit challenge</button></div>
         </form>
       </div>
-      <aside class="panel">
-        <div class="kicker">ARGUMENT LOG</div><h2>${challenges.length ? `${challenges.length} community challenge${challenges.length===1?'':'s'}` : 'No challenges yet'}</h2>
-        <div id="challengeList"></div>
-      </aside>
+      <aside class="panel"><div class="kicker">Argument log</div><h2>${challenges.length?`${challenges.length} community challenge${challenges.length===1?'':'s'}`:'No challenges yet'}</h2><div id="challengeList"></div></aside>
     </section>`;
-  const list=document.getElementById('challengeList');
-  if (!challenges.length) list.innerHTML='<div class="empty">Be the first person to make a serious case for changing this score.</div>';
-  challenges.slice().reverse().forEach(c=>{
-    const node=document.createElement('div'); node.className='challenge-card';
-    node.innerHTML=`<div class="top"><strong>${escapeHtml(c.type)}</strong><span class="proposed">→ ${Number(c.proposed).toFixed(1)}</span></div><p>${escapeHtml(c.argument)}</p>${c.timestamp?`<small>Moment: ${escapeHtml(c.timestamp)}</small><br>`:''}<small>${new Date(c.createdAt).toLocaleString()} · status: open</small>`;
-    list.appendChild(node);
-  });
+  renderChallengeList(song.id);
   document.getElementById('challengeForm').addEventListener('submit',e=>{
     e.preventDefault();
-    const proposed=Number(document.getElementById('proposedScore').value);
-    if(proposed<0||proposed>10) return toast('Score must be between 0 and 10.');
-    state.challenges.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),songId:song.id,proposed,type:document.getElementById('argumentType').value,argument:document.getElementById('argument').value.trim(),timestamp:document.getElementById('timestamp').value.trim(),createdAt:new Date().toISOString()});
-    saveChallenges(); toast('Challenge submitted.'); renderSong(song);
+    const entry={id:Date.now(),songId:song.id,song:song.Song,artist:song.Artist,currentScore:Number(song.Score),proposedScore:Number(document.getElementById('proposedScore').value),type:document.getElementById('argumentType').value,argument:document.getElementById('argument').value.trim(),timestamp:document.getElementById('timestamp').value.trim(),createdAt:new Date().toISOString(),status:'open'};
+    state.challenges.unshift(entry);saveChallenges();toast('Challenge saved on this device.');renderSong(song);
   });
 }
+function renderChallengeList(songId){ const node=document.getElementById('challengeList'); if(!node)return; const rows=songChallenges(songId); if(!rows.length){node.innerHTML='<div class="empty-state">Be the first to make the case.</div>';return;} node.innerHTML=rows.map(c=>`<div class="challenge-item"><div class="challenge-item-head"><span>${escapeHtml(c.type)}</span><span style="color:var(--blue)">→ ${fmt(c.proposedScore)}</span></div><p>${escapeHtml(c.argument)}</p>${c.timestamp?`<p style="font-size:11px"><strong>Moment:</strong> ${escapeHtml(c.timestamp)}</p>`:''}<div class="challenge-time">${new Date(c.createdAt).toLocaleString()} · status: ${escapeHtml(c.status||'open')}</div></div>`).join(''); }
 
-function renderChallenges() {
-  app.innerHTML=`<section class="section-head"><div><div class="kicker">RECONSIDERATION QUEUE</div><h2>Community challenges</h2></div><p>Stored locally in this MVP.</p></section><section class="panel"><div id="allChallenges"></div></section>`;
-  const box=document.getElementById('allChallenges');
-  if(!state.challenges.length){box.innerHTML='<div class="empty">No arguments yet. Open any song and challenge its score.</div>';return;}
-  state.challenges.slice().reverse().forEach(c=>{
-    const song=state.songs.find(s=>s.id===c.songId); if(!song) return;
-    const node=document.createElement('div'); node.className='challenge-card'; node.style.cursor='pointer';
-    node.innerHTML=`<div class="top"><div><strong>${escapeHtml(song.Song)}</strong><br><small>${escapeHtml(song.Artist)}</small></div><span class="proposed">${fmt(song.Score)} → ${Number(c.proposed).toFixed(1)}</span></div><p>${escapeHtml(c.argument)}</p><small>${escapeHtml(c.type)}${c.timestamp?` · ${escapeHtml(c.timestamp)}`:''} · ${new Date(c.createdAt).toLocaleString()}</small>`;
-    node.addEventListener('click',()=>location.hash=`song/${songSlug(song)}`); box.appendChild(node);
-  });
+function renderEntity(kind, value){
+  let items=[], title=value, subtitle='';
+  if(kind==='artist'){items=state.songs.filter(s=>(s.Artists||[s.Artist]).some(a=>slug(a)===value)); title=(items.flatMap(s=>s.Artists||[s.Artist]).find(a=>slug(a)===value))||value; subtitle='Artist';}
+  if(kind==='album'){items=state.songs.filter(s=>slug(s['Album / Release'])===value); title=items[0]?.['Album / Release']||value; subtitle='Album / release';}
+  if(kind==='genre'){items=state.songs.filter(s=>(s.Genres||[]).some(g=>slug(g)===value)); title=(items.flatMap(s=>s.Genres||[]).find(g=>slug(g)===value))||value; subtitle='Genre';}
+  if(kind==='tier'){items=state.songs.filter(s=>slug(tier(s.Score))===value); title=items[0]?tier(items[0].Score):value; subtitle='Score tier';}
+  if(!items.length){app.innerHTML='<div class="empty-state">Nothing found here.</div>';return;}
+  items.sort((a,b)=>Number(b.Score)-Number(a.Score));
+  const distinctArtists=uniqueSorted(items.map(s=>s.Artist)); const releases=uniqueSorted(items.map(s=>s['Album / Release']));
+  app.innerHTML=`<button class="detail-back" onclick="history.back()">← Back</button><section class="entity-hero"><div><div class="kicker">${escapeHtml(subtitle)}</div><h1>${escapeHtml(title)}</h1><div class="entity-meta"><span>${items.length} ${items.length===1?'record':'records'}</span><span>${distinctArtists.length} ${distinctArtists.length===1?'artist':'artists'}</span><span>${releases.length} ${releases.length===1?'release':'releases'}</span></div></div><div class="entity-stat"><strong>${avg(items).toFixed(2)}</strong><span>average editorial score</span></div></section><div class="section-head"><div><div class="kicker">Reviewed catalogue</div><h2>Records</h2></div><p>Sorted by editorial score.</p></div><div id="entityCards" class="card-grid"></div>`;
+  renderCardsInto('#entityCards',items);
 }
 
-function escapeHtml(str='') { return String(str).replace(/[&<>'"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
-
-function renderRoute() {
-  const hash=(location.hash||'#home').slice(1);
-  window.scrollTo({top:0,behavior:'instant'});
-  if(hash.startsWith('song/')) {
-    const id=Number(hash.split('-').pop());
-    const song=state.songs.find(s=>s.id===id);
-    setActiveNav('');
-    if(song) return renderSong(song);
-  }
-  const route=['home','leaderboard','philosophy','challenges'].includes(hash)?hash:'home';
-  setActiveNav(route);
-  if(route==='home') renderHome();
-  if(route==='leaderboard') renderLeaderboard();
-  if(route==='philosophy') renderPhilosophy();
-  if(route==='challenges') renderChallenges();
+function renderLeaderboard(){
+  const items=[...state.songs].sort((a,b)=>Number(b.Score)-Number(a.Score)||a.Song.localeCompare(b.Song));
+  app.innerHTML=`<div class="section-head" style="margin-top:0"><div><div class="kicker">Editorial ranking</div><h2>Leaderboard</h2></div><p>All rated records, highest score first.</p></div><div class="library-toolbar"><div class="search-wrap"><input id="leaderSearch" class="search-input" placeholder="Filter leaderboard by song, artist or release…"><span class="search-icon">⌕</span></div></div><div style="overflow-x:auto"><table class="leader-table"><thead><tr><th>#</th><th>Record</th><th>Release</th><th>Tier</th><th>Score</th></tr></thead><tbody id="leaderBody"></tbody></table></div>`;
+  const body=document.getElementById('leaderBody'); const input=document.getElementById('leaderSearch');
+  function draw(){const q=input.value.toLowerCase().trim(); const filtered=items.filter(s=>[s.Song,s.Artist,s['Album / Release'],...(s.Genres||[])].join(' ').toLowerCase().includes(q)); body.innerHTML=filtered.map((s,i)=>`<tr onclick="location.hash='song/${slug(s.Song)}-${s.id}'" style="cursor:pointer"><td class="rank">${i+1}</td><td><div class="leader-song">${escapeHtml(s.Song)}</div><div class="leader-sub">${escapeHtml(s.Artist)}</div></td><td><div class="leader-sub">${escapeHtml(s['Album / Release'])}</div></td><td><span class="tier-label">${tier(s.Score)}</span></td><td class="leader-score ${scoreClass(s.Score)}">${fmt(s.Score)}</td></tr>`).join('');}
+  input.addEventListener('input',draw);draw();
 }
 
-fetch('data.json')
-  .then(r=>r.json())
-  .then(data=>{ state.songs=data.map(s=>({...s,Score:Number(s.Score),id:Number(s.id)})); saveChallenges(); renderRoute(); })
-  .catch(()=>{ app.innerHTML='<div class="empty">Could not load data.json. Run this folder through a local web server (see README).</div>'; });
+function renderPhilosophy(){
+  app.innerHTML=`<section class="philosophy-grid"><div class="panel manifesto"><div class="kicker">How QAINN scores</div><h1>Identity over prestige.</h1><p>A high score does not require complexity. It requires the record to become itself: a strong idea, a memorable melodic or rhythmic core, creative production, originality, vocal character, and moments that feel non-substitutable.</p><p>Seven is already good. Eight is the identity threshold — “this song is this song.” Nine is where identity and execution converge at an exceptional level.</p></div><div class="scale-list">
+    <div class="scale-item"><strong class="score-9">9+</strong><div><span>Insane</span><p>Exceptional identity, execution and memorable peaks. Extremely rare.</p></div></div>
+    <div class="scale-item"><strong class="score-8">8</strong><div><span>Great / distinctive</span><p>The song owns a fingerprint. It cannot easily be replaced by another record.</p></div></div>
+    <div class="scale-item"><strong class="score-7">7</strong><div><span>Good</span><p>Replayable, convincing, and clearly worth hearing again.</p></div></div>
+    <div class="scale-item"><strong class="score-6">6</strong><div><span>Listenable</span><p>Competent and worthwhile in parts, but the record does not fully click.</p></div></div>
+    <div class="scale-item"><strong class="score-5">5</strong><div><span>It is a song</span><p>Functional, but not distinctive enough to demand a return.</p></div></div>
+    <div class="scale-item"><strong class="score-low">&lt;5</strong><div><span>Mediocre / failed</span><p>The record does not justify itself on this personal editorial scale.</p></div></div>
+  </div></section>`;
+}
+function renderChallenges(){
+  app.innerHTML=`<div class="section-head" style="margin-top:0"><div><div class="kicker">Community</div><h2>Challenge queue</h2></div><p>Current MVP stores challenges locally in this browser.</p></div><div class="panel" id="allChallenges"></div>`;
+  const node=document.getElementById('allChallenges'); if(!state.challenges.length){node.innerHTML='<div class="empty-state">No challenges on this device yet. Open a song and make the first case.</div>';return;} node.innerHTML=state.challenges.map(c=>`<div class="challenge-item" onclick="location.hash='song/${slug(c.song)}-${c.songId}'" style="cursor:pointer"><div class="challenge-item-head"><span>${escapeHtml(c.song)} — ${escapeHtml(c.artist||'')}</span><span>${fmt(c.currentScore)} → ${fmt(c.proposedScore)}</span></div><p>${escapeHtml(c.argument)}</p><div class="challenge-time">${new Date(c.createdAt).toLocaleString()} · ${escapeHtml(c.type)}</div></div>`).join('');
+}
+
+function route(){
+  const raw=(location.hash||'#home').slice(1); const base=raw.split('?')[0]||'home'; setActive(base);
+  if(base==='home') return renderHome();
+  if(base==='library') return renderLibrary();
+  if(base==='leaderboard') return renderLeaderboard();
+  if(base==='philosophy') return renderPhilosophy();
+  if(base==='challenges') return renderChallenges();
+  if(base.startsWith('song/')) return renderSong(findSongFromRoute(base));
+  if(base.startsWith('artist/')) return renderEntity('artist',base.slice(7));
+  if(base.startsWith('album/')) return renderEntity('album',base.slice(6));
+  if(base.startsWith('genre/')) return renderEntity('genre',base.slice(6));
+  if(base.startsWith('tier/')) return renderEntity('tier',base.slice(5));
+  renderHome();
+}
+
+menuButton.addEventListener('click',()=>nav.classList.toggle('open'));
+window.addEventListener('hashchange',route);
+
+fetch('data.json').then(r=>r.json()).then(data=>{state.songs=data;saveChallenges();route();}).catch(err=>{console.error(err);app.innerHTML='<div class="empty-state">Could not load the music database.</div>';});

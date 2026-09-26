@@ -1,916 +1,1672 @@
 [
   {
-    "#": 1,
+    "id": 1,
     "Song": "Let The Light In",
     "Artist": "Lana Del Rey",
-    "Album / Release": "",
-    "Score": 3,
+    "Artists": [
+      "Lana Del Rey"
+    ],
+    "Album / Release": "Did You Know That There's a Tunnel Under Ocean Blvd",
+    "Score": 3.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 1
+    "Genres": [
+      "Alternative Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 2,
+    "id": 2,
     "Song": "Buông",
     "Artist": "Hngle",
-    "Album / Release": "",
-    "Score": 3,
+    "Artists": [
+      "Hngle"
+    ],
+    "Album / Release": "Buông - Single",
+    "Score": 3.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 2
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 3,
-    "Song": "Gabriela ",
+    "id": 3,
+    "Song": "Gabriela",
     "Artist": "Katseye",
-    "Album / Release": "",
+    "Artists": [
+      "Katseye"
+    ],
+    "Album / Release": "BEAUTIFUL CHAOS",
     "Score": 3.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 3
+    "Genres": [
+      "Pop",
+      "K-Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 4,
+    "id": 4,
     "Song": "Bad",
     "Artist": "Ateez",
-    "Album / Release": "",
+    "Artists": [
+      "Ateez"
+    ],
+    "Album / Release": "BAD (Japanese Ver.)",
     "Score": 3.1,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 4
+    "Genres": [
+      "K-Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 5,
+    "id": 5,
     "Song": "Brooklyn Baby",
     "Artist": "Lana Del Rey",
-    "Album / Release": "",
+    "Artists": [
+      "Lana Del Rey"
+    ],
+    "Album / Release": "Ultraviolence",
     "Score": 3.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 5
+    "Genres": [
+      "Alternative Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 6,
+    "id": 6,
     "Song": "GGEZ",
-    "Artist": "",
-    "Album / Release": "",
-    "Score": 0,
+    "Artist": "Unknown artist",
+    "Artists": [
+      "Unknown artist"
+    ],
+    "Album / Release": "Unresolved — artist missing",
+    "Score": 0.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 6
+    "Genres": [
+      "Uncategorized"
+    ],
+    "Genre": "Uncategorized",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 7,
+    "id": 7,
     "Song": "Ăm chã húi",
     "Artist": "Lâm Thằn Lằn",
-    "Album / Release": "",
-    "Score": 0,
+    "Artists": [
+      "Lâm Thằn Lằn"
+    ],
+    "Album / Release": "Unresolved — obscure/novelty release",
+    "Score": 0.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 7
+    "Genres": [
+      "Novelty"
+    ],
+    "Genre": "Novelty",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 8,
+    "id": 8,
     "Song": "Shape Of You",
     "Artist": "Ed Sheeran",
-    "Album / Release": "",
+    "Artists": [
+      "Ed Sheeran"
+    ],
+    "Album / Release": "÷ (Divide)",
     "Score": 3.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 8
+    "Genres": [
+      "Pop",
+      "Dancehall"
+    ],
+    "Genre": "Pop",
+    "Tier": "Failed",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 9,
     "Song": "Dynamite",
     "Artist": "BTS",
-    "Album / Release": "",
-    "Score": 4,
+    "Artists": [
+      "BTS"
+    ],
+    "Album / Release": "Dynamite - Digital Single",
+    "Score": 4.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 9
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Mediocre",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 10,
     "Song": "Haru Haru",
     "Artist": "Bigbang",
-    "Album / Release": "",
-    "Score": 5,
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "Stand Up",
+    "Score": 5.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 10
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 2,
+    "id": 11,
     "Song": "I Wanna Be Yours",
     "Artist": "Arctic Monkeys",
-    "Album / Release": "",
+    "Artists": [
+      "Arctic Monkeys"
+    ],
+    "Album / Release": "AM",
     "Score": 5.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 11
+    "Genres": [
+      "Alternative/Indie",
+      "Rock"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 3,
+    "id": 12,
     "Song": "What You Want",
     "Artist": "Cortis",
-    "Album / Release": "",
-    "Score": 5,
+    "Artists": [
+      "Cortis"
+    ],
+    "Album / Release": "COLOR OUTSIDE THE LINES",
+    "Score": 5.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 12
+    "Genres": [
+      "Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 5,
+    "id": 13,
     "Song": "Delicate",
     "Artist": "Taylor Swift",
-    "Album / Release": "",
+    "Artists": [
+      "Taylor Swift"
+    ],
+    "Album / Release": "reputation",
     "Score": 5.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 13
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 6,
+    "id": 14,
     "Song": "Payphone",
     "Artist": "Maroon 5",
-    "Album / Release": "",
+    "Artists": [
+      "Maroon 5"
+    ],
+    "Album / Release": "Overexposed",
     "Score": 5.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 14
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 7,
+    "id": 15,
     "Song": "Trust Issues",
     "Artist": "The Weeknd",
-    "Album / Release": "",
+    "Artists": [
+      "The Weeknd"
+    ],
+    "Album / Release": "Trust Issues - unofficial/unauthorized release",
     "Score": 5.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 15
+    "Genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 8,
+    "id": 16,
     "Song": "One Less Lonely Girl",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "My World",
     "Score": 5.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 16
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 9,
+    "id": 17,
     "Song": "Girls Like You",
     "Artist": "Maroon 5",
-    "Album / Release": "",
+    "Artists": [
+      "Maroon 5"
+    ],
+    "Album / Release": "Red Pill Blues",
     "Score": 5.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 17
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 10,
+    "id": 18,
     "Song": "Come My Way",
-    "Artist": " Son Tung MTP",
-    "Album / Release": "",
-    "Score": 5,
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Come My Way - Single",
+    "Score": 5.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 18
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 11,
+    "id": 19,
     "Song": "As long as you love me",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
-    "Score": 5,
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Believe",
+    "Score": 5.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 19
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 12,
+    "id": 20,
     "Song": "Just the way you are",
     "Artist": "Bruno Mars",
-    "Album / Release": "",
+    "Artists": [
+      "Bruno Mars"
+    ],
+    "Album / Release": "Doo-Wops & Hooligans",
     "Score": 5.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 20
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 13,
+    "id": 21,
     "Song": "Never say never",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Never Say Never: The Remixes",
     "Score": 5.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 21
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 14,
+    "id": 22,
     "Song": "Earrings",
-    "Artist": "Macom Todd",
-    "Album / Release": "",
-    "Score": 5,
+    "Artist": "Malcolm Todd",
+    "Artists": [
+      "Malcolm Todd"
+    ],
+    "Album / Release": "Sweet Boy",
+    "Score": 5.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 22
+    "Genres": [
+      "Alternative Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "It's a song",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 23,
     "Song": "Wtf bby I'm lit",
     "Artist": "MCK",
-    "Album / Release": "",
+    "Artists": [
+      "MCK"
+    ],
+    "Album / Release": "HVL",
     "Score": 6.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 23
+    "Genres": [
+      "Hip-Hop/Rap",
+      "Vietnamese Pop"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 2,
+    "id": 24,
     "Song": "Bad Blood",
     "Artist": "Taylor Swift",
-    "Album / Release": "",
+    "Artists": [
+      "Taylor Swift"
+    ],
+    "Album / Release": "1989",
     "Score": 6.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 24
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 3,
+    "id": 25,
     "Song": "Why'd You Only Call Me When You're High?",
     "Artist": "Arctic Monkeys",
-    "Album / Release": "",
+    "Artists": [
+      "Arctic Monkeys"
+    ],
+    "Album / Release": "AM",
     "Score": 6.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 25
+    "Genres": [
+      "Alternative/Indie",
+      "Rock"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 4,
+    "id": 26,
     "Song": "Styles",
     "Artist": "Taylor Swift",
-    "Album / Release": "",
+    "Artists": [
+      "Taylor Swift"
+    ],
+    "Album / Release": "1989",
     "Score": 6.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 26
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 5,
+    "id": 27,
     "Song": "Look What You Made Me Do",
     "Artist": "Taylor Swift",
-    "Album / Release": "",
+    "Artists": [
+      "Taylor Swift"
+    ],
+    "Album / Release": "reputation",
     "Score": 6.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 27
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 6,
+    "id": 28,
     "Song": "Blank Space",
     "Artist": "Taylor Swift",
-    "Album / Release": "",
+    "Artists": [
+      "Taylor Swift"
+    ],
+    "Album / Release": "1989",
     "Score": 6.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 28
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 7,
+    "id": 29,
     "Song": "I Need U",
     "Artist": "BTS",
-    "Album / Release": "",
+    "Artists": [
+      "BTS"
+    ],
+    "Album / Release": "The Most Beautiful Moment in Life, Pt. 1",
     "Score": 6.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 29
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 8,
+    "id": 30,
     "Song": "Starboy",
     "Artist": "The Weeknd",
-    "Album / Release": "",
+    "Artists": [
+      "The Weeknd"
+    ],
+    "Album / Release": "Starboy",
     "Score": 6.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 30
+    "Genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 9,
+    "id": 31,
     "Song": "Radio",
     "Artist": "Lana Del Rey",
-    "Album / Release": "",
-    "Score": 6,
+    "Artists": [
+      "Lana Del Rey"
+    ],
+    "Album / Release": "Born to Die",
+    "Score": 6.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 31
+    "Genres": [
+      "Alternative Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 10,
+    "id": 32,
     "Song": "Cinnamon Girl",
     "Artist": "Lana Del Rey",
-    "Album / Release": "",
+    "Artists": [
+      "Lana Del Rey"
+    ],
+    "Album / Release": "Norman F***ing Rockwell!",
     "Score": 6.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 32
+    "Genres": [
+      "Alternative Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 11,
+    "id": 33,
     "Song": "One Kiss",
     "Artist": "Calvin Harris, Dua Lipa",
-    "Album / Release": "",
+    "Artists": [
+      "Calvin Harris",
+      "Dua Lipa"
+    ],
+    "Album / Release": "One Kiss - Single",
     "Score": 6.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 33
+    "Genres": [
+      "Electronic/Dance",
+      "Pop"
+    ],
+    "Genre": "Electronic/Dance",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 12,
+    "id": 34,
     "Song": "Love Me Not",
     "Artist": "Ravyn Lenae",
-    "Album / Release": "",
+    "Artists": [
+      "Ravyn Lenae"
+    ],
+    "Album / Release": "Bird's Eye",
     "Score": 6.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 34
+    "Genres": [
+      "R&B/Soul"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 13,
+    "id": 35,
     "Song": "He's My Man",
     "Artist": "Luvcat",
-    "Album / Release": "",
-    "Score": 6,
+    "Artists": [
+      "Luvcat"
+    ],
+    "Album / Release": "He's My Man - Single",
+    "Score": 6.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 35
+    "Genres": [
+      "Alternative Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 14,
+    "id": 36,
     "Song": "Stereo Hearts",
     "Artist": "Maroon 5",
-    "Album / Release": "",
+    "Artists": [
+      "Maroon 5"
+    ],
+    "Album / Release": "The Papercut Chronicles II",
     "Score": 6.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 36
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 15,
+    "id": 37,
     "Song": "Santa Tell Me",
     "Artist": "Ariana Grande",
-    "Album / Release": "",
+    "Artists": [
+      "Ariana Grande"
+    ],
+    "Album / Release": "Santa Tell Me - Single",
     "Score": 6.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 37
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 16,
+    "id": 38,
     "Song": "Versace On The Floor",
     "Artist": "Bruno Mars",
-    "Album / Release": "",
+    "Artists": [
+      "Bruno Mars"
+    ],
+    "Album / Release": "24K Magic",
     "Score": 6.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 38
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 17,
+    "id": 39,
     "Song": "What makes you beautiful",
     "Artist": "One Direction",
-    "Album / Release": "",
+    "Artists": [
+      "One Direction"
+    ],
+    "Album / Release": "Up All Night",
     "Score": 6.1,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 39
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 18,
+    "id": 40,
     "Song": "Go Baby",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "SWAG",
     "Score": 6.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 40
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 19,
+    "id": 41,
     "Song": "Sober",
     "Artist": "Bigbang",
-    "Album / Release": "",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "D / MADE",
     "Score": 6.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 41
+    "Genres": [
+      "K-Pop",
+      "Pop Rock"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 20,
+    "id": 42,
     "Song": "Hymn for the Weekend",
     "Artist": "Coldplay",
-    "Album / Release": "",
+    "Artists": [
+      "Coldplay"
+    ],
+    "Album / Release": "A Head Full of Dreams",
     "Score": 6.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 42
+    "Genres": [
+      "Pop Rock",
+      "Alternative/Indie"
+    ],
+    "Genre": "Pop Rock",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 21,
+    "id": 43,
     "Song": "Tình yêu chậm trễ",
     "Artist": "Monsta, Grey D",
-    "Album / Release": "",
+    "Artists": [
+      "Monsta",
+      "Grey D"
+    ],
+    "Album / Release": "Over The Moon",
     "Score": 6.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 43
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 22,
+    "id": 44,
     "Song": "Alone",
     "Artist": "Alan Walker",
-    "Album / Release": "",
-    "Score": 6,
+    "Artists": [
+      "Alan Walker"
+    ],
+    "Album / Release": "Alone - Single",
+    "Score": 6.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 44
+    "Genres": [
+      "Electronic/Dance"
+    ],
+    "Genre": "Electronic/Dance",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 23,
+    "id": 45,
     "Song": "Faded",
     "Artist": "Alan Walker",
-    "Album / Release": "",
-    "Score": 6,
+    "Artists": [
+      "Alan Walker"
+    ],
+    "Album / Release": "Faded - Single",
+    "Score": 6.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 45
+    "Genres": [
+      "Electronic/Dance"
+    ],
+    "Genre": "Electronic/Dance",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 24,
+    "id": 46,
     "Song": "Attention",
     "Artist": "Charlie Puth",
-    "Album / Release": "",
+    "Artists": [
+      "Charlie Puth"
+    ],
+    "Album / Release": "Voicenotes",
     "Score": 6.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 46
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 25,
+    "id": 47,
     "Song": "Closer",
-    "Artist": "The Chainsmoker",
-    "Album / Release": "",
+    "Artist": "The Chainsmokers",
+    "Artists": [
+      "The Chainsmokers"
+    ],
+    "Album / Release": "Collage",
     "Score": 6.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 47
+    "Genres": [
+      "Electronic/Dance",
+      "Pop"
+    ],
+    "Genre": "Electronic/Dance",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 26,
+    "id": 48,
     "Song": "Last Christmas",
     "Artist": "Wham",
-    "Album / Release": "",
+    "Artists": [
+      "Wham"
+    ],
+    "Album / Release": "Last Christmas - Single",
     "Score": 6.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 48
+    "Genres": [
+      "Christmas",
+      "Pop"
+    ],
+    "Genre": "Christmas",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 27,
+    "id": 49,
     "Song": "Despacito",
     "Artist": "Luis Fonsi",
-    "Album / Release": "",
+    "Artists": [
+      "Luis Fonsi"
+    ],
+    "Album / Release": "Vida",
     "Score": 6.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 49
+    "Genres": [
+      "Latin/Reggaeton",
+      "Pop"
+    ],
+    "Genre": "Latin/Reggaeton",
+    "Tier": "Listenable",
+    "Cover": ""
   },
   {
-    "#": 5,
+    "id": 50,
     "Song": "Magnetic",
     "Artist": "Illit",
-    "Album / Release": "",
+    "Artists": [
+      "Illit"
+    ],
+    "Album / Release": "SUPER REAL ME",
     "Score": 7.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 50
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 4,
+    "id": 51,
     "Song": "Sweater Weather",
     "Artist": "The Neighbourhood",
-    "Album / Release": "",
+    "Artists": [
+      "The Neighbourhood"
+    ],
+    "Album / Release": "I Love You.",
     "Score": 7.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 51
+    "Genres": [
+      "Alternative/Indie"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 6,
+    "id": 52,
     "Song": "NOT CUTE ANYMORE (Sped up)",
     "Artist": "Illit",
-    "Album / Release": "",
+    "Artists": [
+      "Illit"
+    ],
+    "Album / Release": "NOT CUTE ANYMORE",
     "Score": 7.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 52
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 53,
     "Song": "BiiiG",
     "Artist": "Bigbang",
-    "Album / Release": "",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "BiiiG - Digital Single",
     "Score": 7.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 53
+    "Genres": [
+      "K-Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 3,
+    "id": 54,
     "Song": "Chuyến Tàu Hoàng Hôn",
     "Artist": "Lệ Quyên",
-    "Album / Release": "",
+    "Artists": [
+      "Lệ Quyên"
+    ],
+    "Album / Release": "Đêm Tâm Sự (Khúc Tình Xưa 3)",
     "Score": 7.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 54
+    "Genres": [
+      "Vietnamese Ballad"
+    ],
+    "Genre": "Vietnamese Ballad",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 2,
+    "id": 55,
     "Song": "Knee Socks",
-    "Artist": "Arctic Monkey",
-    "Album / Release": "",
-    "Score": 7,
+    "Artist": "Arctic Monkeys",
+    "Artists": [
+      "Arctic Monkeys"
+    ],
+    "Album / Release": "AM",
+    "Score": 7.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 55
+    "Genres": [
+      "Alternative/Indie",
+      "Rock"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 7,
+    "id": 56,
     "Song": "Tiramisu",
     "Artist": "Don Toliver",
-    "Album / Release": "",
+    "Artists": [
+      "Don Toliver"
+    ],
+    "Album / Release": "Tiramisu - Single / OCTANE",
     "Score": 7.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 56
+    "Genres": [
+      "Hip-Hop/Rap",
+      "R&B/Soul"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 8,
+    "id": 57,
     "Song": "Базовый минимум(Bare Minimum)",
     "Artist": "Sabi, MIA BOYKA",
-    "Album / Release": "",
-    "Score": 7,
+    "Artists": [
+      "Sabi",
+      "MIA BOYKA"
+    ],
+    "Album / Release": "Базовый минимум - Single",
+    "Score": 7.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 57
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 9,
+    "id": 58,
     "Song": "Stay",
     "Artist": "The Kid LAROI, Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "The Kid LAROI",
+      "Justin Bieber"
+    ],
+    "Album / Release": "F*CK LOVE 3: OVER YOU",
     "Score": 7.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 58
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 10,
+    "id": 59,
     "Song": "还是会想你",
     "Artist": "林达浪/h3R3",
-    "Album / Release": "",
+    "Artists": [
+      "林达浪",
+      "h3R3"
+    ],
+    "Album / Release": "还是会想你 - Single",
     "Score": 7.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 59
+    "Genres": [
+      "C-Pop"
+    ],
+    "Genre": "C-Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 11,
+    "id": 60,
     "Song": "Loser",
     "Artist": "Tame Impala",
-    "Album / Release": "",
+    "Artists": [
+      "Tame Impala"
+    ],
+    "Album / Release": "Loser - Single",
     "Score": 7.9,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 60
+    "Genres": [
+      "Alternative/Indie",
+      "Psychedelic Pop"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 12,
+    "id": 61,
     "Song": "Nicole Kidman",
     "Artist": "ADÉLA",
-    "Album / Release": "",
-    "Score": 7,
+    "Artists": [
+      "ADÉLA"
+    ],
+    "Album / Release": "PRIMA",
+    "Score": 7.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 61
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 13,
+    "id": 62,
     "Song": "Natural",
     "Artist": "Imagine Dragons",
-    "Album / Release": "",
+    "Artists": [
+      "Imagine Dragons"
+    ],
+    "Album / Release": "Origins",
     "Score": 7.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 62
+    "Genres": [
+      "Pop Rock"
+    ],
+    "Genre": "Pop Rock",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 14,
+    "id": 63,
     "Song": "Yukon",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "SWAG",
     "Score": 7.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 63
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 15,
+    "id": 64,
     "Song": "Sing Me To Sleep",
     "Artist": "Alan Walker",
-    "Album / Release": "",
+    "Artists": [
+      "Alan Walker"
+    ],
+    "Album / Release": "Sing Me to Sleep - Single",
     "Score": 7.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 64
+    "Genres": [
+      "Electronic/Dance"
+    ],
+    "Genre": "Electronic/Dance",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 16,
+    "id": 65,
     "Song": "Favourite Girl",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
-    "Score": 7,
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "My World",
+    "Score": 7.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 65
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 17,
+    "id": 66,
     "Song": "What is love",
     "Artist": "Twice",
-    "Album / Release": "",
-    "Score": 7,
+    "Artists": [
+      "Twice"
+    ],
+    "Album / Release": "What Is Love?",
+    "Score": 7.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 66
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 18,
+    "id": 67,
     "Song": "We dont talk anymore",
     "Artist": "Charlie Puth",
-    "Album / Release": "",
+    "Artists": [
+      "Charlie Puth"
+    ],
+    "Album / Release": "Nine Track Mind",
     "Score": 7.3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 67
+    "Genres": [
+      "Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Good",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 68,
+    "Song": "Intentions(Acoustic)",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Intentions (Acoustic) - Single",
+    "Score": 7.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Acoustic Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Acoustic Pop",
+    "Tier": "Good",
+    "Cover": ""
+  },
+  {
+    "id": 69,
     "Song": "Loser",
     "Artist": "Bigbang",
-    "Album / Release": "",
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "M / MADE",
     "Score": 8.4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 68
+    "Genres": [
+      "K-Pop",
+      "Pop"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 2,
+    "id": 70,
     "Song": "Habitual",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Changes",
     "Score": 8.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 69
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 3,
+    "id": 71,
     "Song": "Ghost",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Justice",
     "Score": 8.8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 70
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 4,
+    "id": 72,
     "Song": "Walking Away",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "SWAG",
     "Score": 8.7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 71
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 5,
+    "id": 73,
     "Song": "Cold Water",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Cold Water - Single",
     "Score": 8.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 72
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 6,
+    "id": 74,
     "Song": "Smile Mona Lisa",
     "Artist": "will.i.am",
-    "Album / Release": "",
+    "Artists": [
+      "will.i.am"
+    ],
+    "Album / Release": "#willpower",
     "Score": 8.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 73
+    "Genres": [
+      "Pop",
+      "Latin Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 7,
+    "id": 75,
     "Song": "Nuevayol",
     "Artist": "Bad Bunny",
-    "Album / Release": "",
-    "Score": 8,
+    "Artists": [
+      "Bad Bunny"
+    ],
+    "Album / Release": "DeBÍ TiRAR MáS FOToS",
+    "Score": 8.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 74
+    "Genres": [
+      "Latin/Reggaeton"
+    ],
+    "Genre": "Latin/Reggaeton",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 8,
+    "id": 76,
     "Song": "昨夜风今宵月",
     "Artist": "庄淇玟 29",
-    "Album / Release": "",
+    "Artists": [
+      "庄淇玟 29"
+    ],
+    "Album / Release": "昨夜风今宵月 - Single",
     "Score": 8.2,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 75
+    "Genres": [
+      "C-Pop"
+    ],
+    "Genre": "C-Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 9,
+    "id": 77,
     "Song": "What Do You Mean",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Purpose",
     "Score": 8.6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 76
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 10,
+    "id": 78,
     "Song": "Demons",
     "Artist": "Imagine Dragons",
-    "Album / Release": "",
-    "Score": 8,
+    "Artists": [
+      "Imagine Dragons"
+    ],
+    "Album / Release": "Night Visions",
+    "Score": 8.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 77
+    "Genres": [
+      "Pop Rock"
+    ],
+    "Genre": "Pop Rock",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 11,
+    "id": 79,
     "Song": "La La La",
     "Artist": "Sam Smith",
-    "Album / Release": "",
-    "Score": 8,
+    "Artists": [
+      "Sam Smith"
+    ],
+    "Album / Release": "Hotel Cabana",
+    "Score": 8.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 78
+    "Genres": [
+      "Pop",
+      "Electronic/Dance"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 12,
+    "id": 80,
     "Song": "Open Arms",
     "Artist": "SZA",
-    "Album / Release": "",
-    "Score": 8,
+    "Artists": [
+      "SZA"
+    ],
+    "Album / Release": "SOS",
+    "Score": 8.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 79
+    "Genres": [
+      "R&B/Soul",
+      "Acoustic"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Great",
+    "Cover": ""
   },
   {
-    "#": 1,
+    "id": 81,
+    "Song": "GO",
+    "Artist": "Cortis",
+    "Artists": [
+      "Cortis"
+    ],
+    "Album / Release": "COLOR OUTSIDE THE LINES",
+    "Score": 8.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Pop",
+    "Tier": "Great",
+    "Cover": ""
+  },
+  {
+    "id": 82,
     "Song": "Without Me",
     "Artist": "Eminem",
-    "Album / Release": "",
+    "Artists": [
+      "Eminem"
+    ],
+    "Album / Release": "The Eminem Show",
     "Score": 9.5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "Cover": "/covers/Eminem_-_Without_Me.jpg",
-    "id": 80
+    "Genres": [
+      "Hip-Hop/Rap",
+      "Pop Rap"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Insane",
+    "Cover": "/covers/Eminem_-_Without_Me.jpg"
   },
   {
-    "#": 2,
+    "id": 83,
     "Song": "Bae Bae",
     "Artist": "Bigbang",
-    "Album / Release": "",
-    "Score": 9,
+    "Artists": [
+      "Bigbang"
+    ],
+    "Album / Release": "M / MADE",
+    "Score": 9.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 81
+    "Genres": [
+      "K-Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "K-Pop",
+    "Tier": "Insane",
+    "Cover": ""
   },
   {
-    "#": 3,
+    "id": 84,
     "Song": "Chạy ngay đi (Onion remix)",
     "Artist": "Sơn Tùng MTP",
-    "Album / Release": "",
-    "Score": 9,
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "Chạy Ngay Đi (Onionn Remix) - Single",
+    "Score": 9.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 82
+    "Genres": [
+      "Vietnamese Pop",
+      "Electronic/Dance"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Insane",
+    "Cover": ""
   },
   {
-    "#": 4,
+    "id": 85,
     "Song": "Flatline",
     "Artist": "Justin Bieber",
-    "Album / Release": "",
-    "Score": 9,
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "Journals",
+    "Score": 9.0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
-    "id": 83
+    "Genres": [
+      "R&B/Soul",
+      "Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Insane",
+    "Cover": ""
   }
 ]

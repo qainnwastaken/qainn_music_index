@@ -1,50 +1,31 @@
-# QAINN — Music Index (MVP)
+# QAINN — Music Index v2
 
-A static, working first version of the music-review site.
+A static music-review publication and library built from the current QAINN ratings workbook.
 
-## What is included
+## What's new in v2
+- Light-blue editorial theme with improved contrast
+- Professional boxed editorial score treatment with tier-specific styling
+- 85 ratings imported from `Music_Rate_with_releases(1).xlsx`
+- Search across song, artist, album/release and genre
+- Library browsing by songs, artists, albums/releases, genres and score tiers
+- Dedicated artist, album/release, genre and score-tier pages
+- Contributor-aware artist pages for collaborations
+- Leaderboard retained
+- Song-level challenge UI retained (currently saved to the visitor's browser via `localStorage`)
+- Existing `Without Me` cover preserved
 
-- 83 ratings imported from the supplied Excel workbook
-- Home page with live average, median, replay-line count, and 8+ count
-- Searchable/filterable leaderboard
-- Individual song pages
-- Editorial scoring philosophy
-- “Challenge this score” form
-- Community challenge queue
-- Challenges persist in the browser via `localStorage`
-- Responsive mobile layout
+## Important data note
+The `Genres` field is a practical first-pass browsing taxonomy added for this website. It is meant to make the library usable now; it can be refined later as the catalogue grows.
 
-## Run it locally
+## Files
+- `index.html` — site shell/navigation
+- `styles.css` — visual system and responsive layout
+- `app.js` — routing, search, library, score UI and challenge UI
+- `data.json` — 85-song website database
+- `covers/` — locally hosted cover artwork
 
-Because the site loads `data.json`, use a tiny local web server rather than double-clicking `index.html`.
+## Deploy to Vercel
+If this repository is already connected to Vercel, replace the files in GitHub and commit them. Vercel should redeploy automatically.
 
-### Python
-
-```bash
-cd qainn_reviews
-python3 -m http.server 8080
-```
-
-Then open `http://localhost:8080`.
-
-### VS Code
-
-You can also use the **Live Server** extension and open `index.html`.
-
-## Deploy it
-
-This folder can be deployed as-is to Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
-
-For a public community version, the next upgrade should replace browser `localStorage` with Supabase/Postgres so submissions are shared across users, then add authentication and moderation.
-
-## Suggested V2 data model
-
-- `songs`
-- `artists`
-- `reviews`
-- `score_revisions`
-- `users`
-- `challenges`
-- `challenge_responses`
-
-The current UI is intentionally compatible with that direction: the local challenge object already contains `songId`, proposed score, argument type, argument text, timestamp/moment, and creation time.
+## Challenge system limitation
+Challenges currently live only in the user's browser. To make submissions shared across devices/users, the next step is connecting the form to a real database such as Supabase.

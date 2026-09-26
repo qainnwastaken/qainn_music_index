@@ -3,9 +3,13 @@ const nav = document.getElementById('mainNav');
 const menuButton = document.getElementById('menuButton');
 const challengeCount = document.getElementById('challengeCount');
 
+const SUPABASE_URL = 'https://rnloijabzjguylgqsjog.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_fzQLrSReVC87xoLmJjlH5w_w1CB0Chb';
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
 const state = {
   songs: [],
-  challenges: JSON.parse(localStorage.getItem('qainnChallenges') || '[]')
+  challenges: []
 };
 
 const TIER_ORDER = ['Perfect','Insane','Great','Good','Listenable',"It's a song",'Mediocre','Failed'];
@@ -31,7 +35,41 @@ function tierCopy(score){
 function scoreClass(score){ const n=Number(score); if(n>=9)return 'score-9'; if(n>=8)return 'score-8'; if(n>=7)return 'score-7'; if(n>=6)return 'score-6'; if(n>=5)return 'score-5'; return 'score-low'; }
 function scoreCard(score){ return `<div class="editorial-score-card"><div class="editorial-score ${scoreClass(score)}">${fmt(score)}</div><div><div style="font-weight:950">/10</div><div class="score-label">Editorial score</div></div></div>`; }
 function songChallenges(id){ return state.challenges.filter(c=>Number(c.songId)===Number(id)); }
-function saveChallenges(){ localStorage.setItem('qainnChallenges',JSON.stringify(state.challenges)); challengeCount.textContent=state.challenges.length; }
+function updateChallengeCount(){ challengeCount.textContent=state.challenges.length; }
+
+function normalizeChallenge(row){
+  const song = state.songs.find(s=>Number(s.id)===Number(row.song_id));
+  return {
+    id: row.id,
+    songId: row.song_id,
+    song: song?.Song || `Song #${row.song_id}`,
+    artist: song?.Artist || '',
+    currentScore: Number(song?.Score ?? 0),
+    proposedScore: Number(row.proposed_score),
+    type: row.argument_category || 'Other',
+    argument: row.argument_text || '',
+    timestamp: row.specific_moment || '',
+    createdAt: row.created_at,
+    status: row.status || 'open'
+  };
+}
+
+async function loadChallenges(){
+  const { data, error } = await supabaseClient
+    .from('challenges')
+    .select('id,song_id,proposed_score,argument_category,argument_text,specific_moment,status,created_at')
+    .order('created_at', { ascending:false });
+
+  if(error){
+    console.error('Could not load challenges:', error);
+    state.challenges = [];
+    updateChallengeCount();
+    return;
+  }
+
+  state.challenges = (data || []).map(normalizeChallenge);
+  updateChallengeCount();
+}
 function avg(items){ return items.length ? items.reduce((a,b)=>a+Number(b.Score),0)/items.length : 0; }
 function median(items){ if(!items.length)return 0; const a=items.map(x=>Number(x.Score)).sort((x,y)=>x-y); const m=Math.floor(a.length/2); return a.length%2?a[m]:(a[m-1]+a[m])/2; }
 function uniqueSorted(arr){ return [...new Set(arr.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b))); }
@@ -194,10 +232,37 @@ function renderSong(song){
       <aside class="panel"><div class="kicker">Argument log</div><h2>${challenges.length?`${challenges.length} community challenge${challenges.length===1?'':'s'}`:'No challenges yet'}</h2><div id="challengeList"></div></aside>
     </section>`;
   renderChallengeList(song.id);
-  document.getElementById('challengeForm').addEventListener('submit',e=>{
+  document.getElementById('challengeForm').addEventListener('submit',async e=>{
     e.preventDefault();
-    const entry={id:Date.now(),songId:song.id,song:song.Song,artist:song.Artist,currentScore:Number(song.Score),proposedScore:Number(document.getElementById('proposedScore').value),type:document.getElementById('argumentType').value,argument:document.getElementById('argument').value.trim(),timestamp:document.getElementById('timestamp').value.trim(),createdAt:new Date().toISOString(),status:'open'};
-    state.challenges.unshift(entry);saveChallenges();toast('Challenge saved on this device.');renderSong(song);
+
+    const submitButton=e.currentTarget.querySelector('button[type="submit"]');
+    submitButton.disabled=true;
+    submitButton.textContent='Submitting…';
+
+    const payload={
+      song_id:Number(song.id),
+      proposed_score:Number(document.getElementById('proposedScore').value),
+      argument_category:document.getElementById('argumentType').value,
+      argument_text:document.getElementById('argument').value.trim(),
+      specific_moment:document.getElementById('timestamp').value.trim() || null,
+      status:'open'
+    };
+
+    const { error } = await supabaseClient
+      .from('challenges')
+      .insert(payload);
+
+    if(error){
+      console.error('Challenge submission failed:',error);
+      toast('Could not submit challenge.');
+      submitButton.disabled=false;
+      submitButton.textContent='Submit challenge';
+      return;
+    }
+
+    await loadChallenges();
+    toast('Challenge published.');
+    renderSong(song);
   });
 }
 
@@ -235,8 +300,8 @@ function renderPhilosophy(){
   </div></section>`;
 }
 function renderChallenges(){
-  app.innerHTML=`<div class="section-head" style="margin-top:0"><div><div class="kicker">Community</div><h2>Challenge queue</h2></div><p>Current MVP stores challenges locally in this browser.</p></div><div class="panel" id="allChallenges"></div>`;
-  const node=document.getElementById('allChallenges'); if(!state.challenges.length){node.innerHTML='<div class="empty-state">No challenges on this device yet. Open a song and make the first case.</div>';return;} node.innerHTML=state.challenges.map(c=>`<div class="challenge-item" onclick="location.hash='song/${slug(c.song)}-${c.songId}'" style="cursor:pointer"><div class="challenge-item-head"><span>${escapeHtml(c.song)} — ${escapeHtml(c.artist||'')}</span><span>${fmt(c.currentScore)} → ${fmt(c.proposedScore)}</span></div><p>${escapeHtml(c.argument)}</p><div class="challenge-time">${new Date(c.createdAt).toLocaleString()} · ${escapeHtml(c.type)}</div></div>`).join('');
+  app.innerHTML=`<div class="section-head" style="margin-top:0"><div><div class="kicker">Community</div><h2>Challenge queue</h2></div><p>Public challenges submitted by QAINNDEX readers.</p></div><div class="panel" id="allChallenges"></div>`;
+  const node=document.getElementById('allChallenges'); if(!state.challenges.length){node.innerHTML='<div class="empty-state">No public challenges yet. Open a song and make the first case.</div>';return;} node.innerHTML=state.challenges.map(c=>`<div class="challenge-item" onclick="location.hash='song/${slug(c.song)}-${c.songId}'" style="cursor:pointer"><div class="challenge-item-head"><span>${escapeHtml(c.song)} — ${escapeHtml(c.artist||'')}</span><span>${fmt(c.currentScore)} → ${fmt(c.proposedScore)}</span></div><p>${escapeHtml(c.argument)}</p><div class="challenge-time">${new Date(c.createdAt).toLocaleString()} · ${escapeHtml(c.type)}</div></div>`).join('');
 }
 
 function route(){
@@ -257,4 +322,16 @@ function route(){
 menuButton.addEventListener('click',()=>nav.classList.toggle('open'));
 window.addEventListener('hashchange',route);
 
-fetch('data.json').then(r=>r.json()).then(data=>{state.songs=data;saveChallenges();route();}).catch(err=>{console.error(err);app.innerHTML='<div class="empty-state">Could not load the music database.</div>';});
+async function boot(){
+  try{
+    const response=await fetch('data.json');
+    state.songs=await response.json();
+    await loadChallenges();
+    route();
+  }catch(err){
+    console.error(err);
+    app.innerHTML='<div class="empty-state">Could not load the music database.</div>';
+  }
+}
+
+boot();

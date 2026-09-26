@@ -30,7 +30,7 @@ a{color:inherit;text-decoration:none}
   border-radius:50%;
   background:
     url('assets/teddy-bear.jpg')
-    50% 42% / 145% auto
+    50% 42% / 105% auto
     no-repeat;
   box-shadow:0 8px 20px rgba(67,119,155,.18);
   border:2px solid rgba(255,255,255,.9);
@@ -78,7 +78,7 @@ a{color:inherit;text-decoration:none}
     url('assets/teddy-bear.jpg')
     72% 45% / 78% auto
     no-repeat;
-  filter:blur(3px);
+  filter:blur(1px);
   transform:scale(1.05);
   opacity:.32;
   z-index:-2;

@@ -16,7 +16,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Let+The+Light+In&artist=Lana+Del+Rey&album=Did+You+Know+That+There%27s+a+Tunnel+Under+Ocean+Blvd",
     "Verdict": "",
     "Review": ""
   },
@@ -37,7 +37,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Bu%C3%B4ng&artist=Hngle&album=Bu%C3%B4ng+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -59,7 +59,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Gabriela&artist=Katseye&album=BEAUTIFUL+CHAOS",
     "Verdict": "",
     "Review": ""
   },
@@ -80,7 +80,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Bad&artist=Ateez&album=BAD+%28Japanese+Ver.%29",
     "Verdict": "",
     "Review": ""
   },
@@ -101,7 +101,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Brooklyn+Baby&artist=Lana+Del+Rey&album=Ultraviolence",
     "Verdict": "",
     "Review": ""
   },
@@ -122,7 +122,7 @@
     ],
     "Genre": "Uncategorized",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=GGEZ&artist=Unknown+artist&album=Unresolved+%E2%80%94+artist+missing",
     "Verdict": "",
     "Review": ""
   },
@@ -143,7 +143,7 @@
     ],
     "Genre": "Novelty",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=%C4%82m+ch%C3%A3+h%C3%BAi&artist=L%C3%A2m+Th%E1%BA%B1n+L%E1%BA%B1n&album=Unresolved+%E2%80%94+obscure%2Fnovelty+release",
     "Verdict": "",
     "Review": ""
   },
@@ -165,7 +165,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Failed",
-    "Cover": "",
+    "Cover": "/api/cover?song=Shape+Of+You&artist=Ed+Sheeran&album=%C3%B7+%28Divide%29",
     "Verdict": "",
     "Review": ""
   },
@@ -187,7 +187,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Mediocre",
-    "Cover": "",
+    "Cover": "/api/cover?song=Dynamite&artist=BTS&album=Dynamite+-+Digital+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -209,7 +209,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Haru+Haru&artist=Bigbang&album=Stand+Up",
     "Verdict": "",
     "Review": ""
   },
@@ -231,7 +231,7 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=I+Wanna+Be+Yours&artist=Arctic+Monkeys&album=AM",
     "Verdict": "",
     "Review": ""
   },
@@ -253,7 +253,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=What+You+Want&artist=Cortis&album=COLOR+OUTSIDE+THE+LINES",
     "Verdict": "",
     "Review": ""
   },
@@ -274,7 +274,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Delicate&artist=Taylor+Swift&album=reputation",
     "Verdict": "",
     "Review": ""
   },
@@ -295,7 +295,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Payphone&artist=Maroon+5&album=Overexposed",
     "Verdict": "",
     "Review": ""
   },
@@ -317,7 +317,7 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Trust+Issues&artist=The+Weeknd&album=Trust+Issues+-+unofficial%2Funauthorized+release",
     "Verdict": "",
     "Review": ""
   },
@@ -339,7 +339,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=One+Less+Lonely+Girl&artist=Justin+Bieber&album=My+World",
     "Verdict": "",
     "Review": ""
   },
@@ -360,7 +360,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Girls+Like+You&artist=Maroon+5&album=Red+Pill+Blues",
     "Verdict": "",
     "Review": ""
   },
@@ -381,7 +381,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Come+My+Way&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Come+My+Way+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -403,7 +403,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=As+long+as+you+love+me&artist=Justin+Bieber&album=Believe",
     "Verdict": "",
     "Review": ""
   },
@@ -425,7 +425,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Just+the+way+you+are&artist=Bruno+Mars&album=Doo-Wops+%26+Hooligans",
     "Verdict": "",
     "Review": ""
   },
@@ -447,7 +447,7 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Never+say+never&artist=Justin+Bieber&album=Never+Say+Never%3A+The+Remixes",
     "Verdict": "",
     "Review": ""
   },
@@ -469,7 +469,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "It's a song",
-    "Cover": "",
+    "Cover": "/api/cover?song=Earrings&artist=Malcolm+Todd&album=Sweet+Boy",
     "Verdict": "",
     "Review": ""
   },
@@ -491,7 +491,7 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Wtf+bby+I%27m+lit&artist=MCK&album=HVL",
     "Verdict": "",
     "Review": ""
   },
@@ -512,7 +512,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Bad+Blood&artist=Taylor+Swift&album=1989",
     "Verdict": "",
     "Review": ""
   },
@@ -534,7 +534,7 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Why%27d+You+Only+Call+Me+When+You%27re+High%3F&artist=Arctic+Monkeys&album=AM",
     "Verdict": "",
     "Review": ""
   },
@@ -555,7 +555,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Styles&artist=Taylor+Swift&album=1989",
     "Verdict": "",
     "Review": ""
   },
@@ -576,7 +576,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Look+What+You+Made+Me+Do&artist=Taylor+Swift&album=reputation",
     "Verdict": "",
     "Review": ""
   },
@@ -597,7 +597,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Blank+Space&artist=Taylor+Swift&album=1989",
     "Verdict": "",
     "Review": ""
   },
@@ -619,7 +619,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=I+Need+U&artist=BTS&album=The+Most+Beautiful+Moment+in+Life%2C+Pt.+1",
     "Verdict": "",
     "Review": ""
   },
@@ -641,7 +641,7 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Starboy&artist=The+Weeknd&album=Starboy",
     "Verdict": "",
     "Review": ""
   },
@@ -662,7 +662,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Radio&artist=Lana+Del+Rey&album=Born+to+Die",
     "Verdict": "",
     "Review": ""
   },
@@ -683,7 +683,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Cinnamon+Girl&artist=Lana+Del+Rey&album=Norman+F%2A%2A%2Aing+Rockwell%21",
     "Verdict": "",
     "Review": ""
   },
@@ -706,7 +706,7 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=One+Kiss&artist=Calvin+Harris%2C+Dua+Lipa&album=One+Kiss+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -727,7 +727,7 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Love+Me+Not&artist=Ravyn+Lenae&album=Bird%27s+Eye",
     "Verdict": "",
     "Review": ""
   },
@@ -748,7 +748,7 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=He%27s+My+Man&artist=Luvcat&album=He%27s+My+Man+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -769,7 +769,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Stereo+Hearts&artist=Maroon+5&album=The+Papercut+Chronicles+II",
     "Verdict": "",
     "Review": ""
   },
@@ -791,7 +791,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Santa+Tell+Me&artist=Ariana+Grande&album=Santa+Tell+Me+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -813,7 +813,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Versace+On+The+Floor&artist=Bruno+Mars&album=24K+Magic",
     "Verdict": "",
     "Review": ""
   },
@@ -834,7 +834,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=What+makes+you+beautiful&artist=One+Direction&album=Up+All+Night",
     "Verdict": "",
     "Review": ""
   },
@@ -856,7 +856,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Go+Baby&artist=Justin+Bieber&album=SWAG",
     "Verdict": "",
     "Review": ""
   },
@@ -878,7 +878,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Sober&artist=Bigbang&album=D+%2F+MADE",
     "Verdict": "",
     "Review": ""
   },
@@ -900,7 +900,7 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Hymn+for+the+Weekend&artist=Coldplay&album=A+Head+Full+of+Dreams",
     "Verdict": "",
     "Review": ""
   },
@@ -923,7 +923,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=T%C3%ACnh+y%C3%AAu+ch%E1%BA%ADm+tr%E1%BB%85&artist=Monsta%2C+Grey+D&album=Over+The+Moon",
     "Verdict": "",
     "Review": ""
   },
@@ -944,7 +944,7 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Alone&artist=Alan+Walker&album=Alone+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -965,7 +965,7 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Faded&artist=Alan+Walker&album=Faded+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -986,7 +986,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Attention&artist=Charlie+Puth&album=Voicenotes",
     "Verdict": "",
     "Review": ""
   },
@@ -1008,7 +1008,7 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Closer&artist=The+Chainsmokers&album=Collage",
     "Verdict": "",
     "Review": ""
   },
@@ -1030,7 +1030,7 @@
     ],
     "Genre": "Christmas",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Last+Christmas&artist=Wham&album=Last+Christmas+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1052,7 +1052,7 @@
     ],
     "Genre": "Latin/Reggaeton",
     "Tier": "Listenable",
-    "Cover": "",
+    "Cover": "/api/cover?song=Despacito&artist=Luis+Fonsi&album=Vida",
     "Verdict": "",
     "Review": ""
   },
@@ -1074,7 +1074,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Magnetic&artist=Illit&album=SUPER+REAL+ME",
     "Verdict": "",
     "Review": ""
   },
@@ -1095,7 +1095,7 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Sweater+Weather&artist=The+Neighbourhood&album=I+Love+You.",
     "Verdict": "",
     "Review": ""
   },
@@ -1117,7 +1117,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=NOT+CUTE+ANYMORE+%28Sped+up%29&artist=Illit&album=NOT+CUTE+ANYMORE",
     "Verdict": "",
     "Review": ""
   },
@@ -1139,7 +1139,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=BiiiG&artist=Bigbang&album=BiiiG+-+Digital+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1160,7 +1160,7 @@
     ],
     "Genre": "Vietnamese Ballad",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Chuy%E1%BA%BFn+T%C3%A0u+Ho%C3%A0ng+H%C3%B4n&artist=L%E1%BB%87+Quy%C3%AAn&album=%C4%90%C3%AAm+T%C3%A2m+S%E1%BB%B1+%28Kh%C3%BAc+T%C3%ACnh+X%C6%B0a+3%29",
     "Verdict": "",
     "Review": ""
   },
@@ -1182,7 +1182,7 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Knee+Socks&artist=Arctic+Monkeys&album=AM",
     "Verdict": "",
     "Review": ""
   },
@@ -1204,7 +1204,7 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Tiramisu&artist=Don+Toliver&album=Tiramisu+-+Single+%2F+OCTANE",
     "Verdict": "",
     "Review": ""
   },
@@ -1226,7 +1226,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D1%83%D0%BC%28Bare+Minimum%29&artist=Sabi%2C+MIA+BOYKA&album=%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D1%83%D0%BC+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1248,7 +1248,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Stay&artist=The+Kid+LAROI%2C+Justin+Bieber&album=F%2ACK+LOVE+3%3A+OVER+YOU",
     "Verdict": "",
     "Review": ""
   },
@@ -1270,7 +1270,7 @@
     ],
     "Genre": "C-Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0&artist=%E6%9E%97%E8%BE%BE%E6%B5%AA%2Fh3R3&album=%E8%BF%98%E6%98%AF%E4%BC%9A%E6%83%B3%E4%BD%A0+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1292,7 +1292,7 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Loser&artist=Tame+Impala&album=Loser+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1313,7 +1313,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Nicole+Kidman&artist=ADE%CC%81LA&album=PRIMA",
     "Verdict": "",
     "Review": ""
   },
@@ -1334,7 +1334,7 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Natural&artist=Imagine+Dragons&album=Origins",
     "Verdict": "",
     "Review": ""
   },
@@ -1356,7 +1356,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Yukon&artist=Justin+Bieber&album=SWAG",
     "Verdict": "",
     "Review": ""
   },
@@ -1377,7 +1377,7 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Sing+Me+To+Sleep&artist=Alan+Walker&album=Sing+Me+to+Sleep+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1399,7 +1399,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Favourite+Girl&artist=Justin+Bieber&album=My+World",
     "Verdict": "",
     "Review": ""
   },
@@ -1421,7 +1421,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=What+is+love&artist=Twice&album=What+Is+Love%3F",
     "Verdict": "",
     "Review": ""
   },
@@ -1442,7 +1442,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=We+dont+talk+anymore&artist=Charlie+Puth&album=Nine+Track+Mind",
     "Verdict": "",
     "Review": ""
   },
@@ -1464,7 +1464,7 @@
     ],
     "Genre": "Acoustic Pop",
     "Tier": "Good",
-    "Cover": "",
+    "Cover": "/api/cover?song=Intentions%28Acoustic%29&artist=Justin+Bieber&album=Intentions+%28Acoustic%29+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1486,7 +1486,7 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Loser&artist=Bigbang&album=M+%2F+MADE",
     "Verdict": "",
     "Review": ""
   },
@@ -1508,7 +1508,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Habitual&artist=Justin+Bieber&album=Changes",
     "Verdict": "",
     "Review": ""
   },
@@ -1530,7 +1530,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Ghost&artist=Justin+Bieber&album=Justice",
     "Verdict": "",
     "Review": ""
   },
@@ -1552,7 +1552,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Walking+Away&artist=Justin+Bieber&album=SWAG",
     "Verdict": "",
     "Review": ""
   },
@@ -1574,7 +1574,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Cold+Water&artist=Justin+Bieber&album=Cold+Water+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1596,7 +1596,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Smile+Mona+Lisa&artist=will.i.am&album=%23willpower",
     "Verdict": "",
     "Review": ""
   },
@@ -1617,7 +1617,7 @@
     ],
     "Genre": "Latin/Reggaeton",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Nuevayol&artist=Bad+Bunny&album=DeB%C3%8D+TiRAR+M%C3%A1S+FOToS",
     "Verdict": "",
     "Review": ""
   },
@@ -1638,7 +1638,7 @@
     ],
     "Genre": "C-Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=%E6%98%A8%E5%A4%9C%E9%A3%8E%E4%BB%8A%E5%AE%B5%E6%9C%88&artist=%E5%BA%84%E6%B7%87%E7%8E%9F+29&album=%E6%98%A8%E5%A4%9C%E9%A3%8E%E4%BB%8A%E5%AE%B5%E6%9C%88+-+Single",
     "Verdict": "",
     "Review": ""
   },
@@ -1660,7 +1660,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=What+Do+You+Mean&artist=Justin+Bieber&album=Purpose",
     "Verdict": "",
     "Review": ""
   },
@@ -1681,7 +1681,7 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Demons&artist=Imagine+Dragons&album=Night+Visions",
     "Verdict": "",
     "Review": ""
   },
@@ -1703,7 +1703,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=La+La+La&artist=Sam+Smith&album=Hotel+Cabana",
     "Verdict": "",
     "Review": ""
   },
@@ -1725,7 +1725,7 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=Open+Arms&artist=SZA&album=SOS",
     "Verdict": "",
     "Review": ""
   },
@@ -1747,7 +1747,7 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": "",
+    "Cover": "/api/cover?song=GO&artist=Cortis&album=COLOR+OUTSIDE+THE+LINES",
     "Verdict": "",
     "Review": ""
   },

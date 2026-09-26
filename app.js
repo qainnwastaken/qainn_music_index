@@ -208,7 +208,9 @@ function renderSong(song) {
 <div class="detail-meta">
 
   <div style="display:flex;align-items:flex-end;gap:14px;margin-bottom:14px">
-    <div class="score">${fmt(song.Score)}</div>
+    <div style="font-size:72px;line-height:.9;font-weight:900;color:#dfff37">
+  ${fmt(song.Score)}
+    </div>
     <div class="kicker" style="padding-bottom:10px">EDITORIAL SCORE / 10</div>
   </div>
         <div class="kicker">${tier(song.Score)} · ${songChallenges(song.id).length} challenge${songChallenges(song.id).length===1?'':'s'}</div>
@@ -216,7 +218,6 @@ function renderSong(song) {
         <div class="detail-artist">${escapeHtml(song.Artist||'Unknown artist')}</div>
         <div class="tags"><span class="tag">Identity</span><span class="tag">Production</span><span class="tag">Originality</span><span class="tag">Melody</span><span class="tag">Vocal character</span></div>
         <div class="detail-verdict"><strong>Current verdict.</strong> ${tierCopy(Number(song.Score))} This MVP imports the score from the original rating sheet; the long-form written review can be added later without changing the data model.</div>
-      </div>
       </div>
     </section>
     <section class="challenge-layout">

@@ -55,7 +55,15 @@ function makeCard(song) {
   const card = tpl.querySelector('.song-card');
   const btn = tpl.querySelector('.song-card-link');
   const hue = (song.id * 47) % 360;
-  tpl.querySelector('.cover-art').style.background = `linear-gradient(145deg, hsl(${hue} 35% 26%), #101116 70%)`;
+ const cover = tpl.querySelector('.cover-art');
+
+if (song.Cover && song.Cover.trim()) {
+  cover.style.backgroundImage = `url("${song.Cover}")`;
+  cover.style.backgroundSize = 'cover';
+  cover.style.backgroundPosition = 'center';
+} else {
+  cover.style.background = `linear-gradient(145deg, hsl(${hue} 35% 26%), #101116 70%)`;
+}
   tpl.querySelector('.cover-initial').textContent = (song.Song || '?').trim()[0]?.toUpperCase() || '?';
   tpl.querySelector('.cover-score').textContent = fmt(song.Score);
   tpl.querySelector('.score-badge').textContent = `${fmt(song.Score)} / 10`;

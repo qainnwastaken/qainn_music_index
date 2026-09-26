@@ -78,7 +78,7 @@ a{color:inherit;text-decoration:none}
     url('assets/teddy-bear.jpg')
     72% 45% / 78% auto
     no-repeat;
-  filter:blur(7px);
+  filter:blur(3px);
   transform:scale(1.05);
   opacity:.32;
   z-index:-2;

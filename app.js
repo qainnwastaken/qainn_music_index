@@ -206,13 +206,12 @@ function renderSong(song) {
   }
 </div>
 <div class="detail-meta">
-
   <div style="display:flex;align-items:flex-end;gap:14px;margin-bottom:14px">
-    <div style="font-size:72px;line-height:.9;font-weight:900;color:#dfff37">
-  ${fmt(song.Score)}
-    </div>
-    <div class="kicker" style="padding-bottom:10px">EDITORIAL SCORE / 10</div>
+  <div style="font-size:72px;line-height:.9;font-weight:900;color:#dfff37">
+    ${fmt(song.Score)}
   </div>
+  <div class="kicker" style="padding-bottom:10px">EDITORIAL SCORE / 10</div>
+</div>
         <div class="kicker">${tier(song.Score)} · ${songChallenges(song.id).length} challenge${songChallenges(song.id).length===1?'':'s'}</div>
         <h1>${escapeHtml(song.Song)}</h1>
         <div class="detail-artist">${escapeHtml(song.Artist||'Unknown artist')}</div>

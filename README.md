@@ -29,3 +29,13 @@ If this repository is already connected to Vercel, replace the files in GitHub a
 
 ## Challenge system limitation
 Challenges currently live only in the user's browser. To make submissions shared across devices/users, the next step is connecting the form to a real database such as Supabase.
+
+## New content fields
+
+Each song now supports two optional fields in `data.json`:
+
+- `Verdict` → short editorial summary shown beside **Current verdict**
+- `Review` → long-form review shown below it, with paragraph support
+
+If `Verdict` is empty, the site falls back to the automatic tier copy.
+If `Review` is empty, the long-form section is simply hidden.

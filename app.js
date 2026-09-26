@@ -39,6 +39,17 @@ function setActive(route){ document.querySelectorAll('[data-nav]').forEach(a=>a.
 function toast(message){ let n=document.querySelector('.toast'); if(!n){n=document.createElement('div');n.className='toast';document.body.appendChild(n)} n.textContent=message; n.hidden=false; clearTimeout(n._t);n._t=setTimeout(()=>n.remove(),2400); }
 function coverStyle(song){ if(song.Cover) return `background-image:url('${song.Cover}');`; const hue=(song.id*47)%360; return `background:linear-gradient(145deg,hsl(${hue} 55% 55%),hsl(${(hue+70)%360} 45% 64%));`; }
 function initials(song){ return escapeHtml((song.Song||'?').trim()[0]?.toUpperCase()||'?'); }
+function plainText(value=''){ return String(value||'').trim(); }
+function songVerdict(song){ return plainText(song.Verdict) || tierCopy(Number(song.Score)); }
+function songReview(song){ return plainText(song.Review) || plainText(song.Notes); }
+function reviewMarkup(value=''){
+  const text = plainText(value);
+  if(!text) return '';
+  return text
+    .split(/\r?\n\r?\n+/)
+    .map(block => '<p>' + escapeHtml(block).replace(/\r?\n/g,'<br>') + '</p>')
+    .join('');
+}
 
 function makeCard(song){
   const tpl=document.getElementById('songCardTemplate').content.cloneNode(true);
@@ -151,7 +162,9 @@ function renderLibrary(){
 function findSongFromRoute(route){ const m=route.match(/-(\d+)$/); if(!m)return null; return state.songs.find(s=>Number(s.id)===Number(m[1])); }
 function renderSong(song){
   if(!song){app.innerHTML='<div class="empty-state">Song not found.</div>';return;}
-  const challenges=songChallenges(song.id); const hue=(song.id*47)%360;
+  const challenges=songChallenges(song.id);
+  const verdict=songVerdict(song);
+  const review=songReview(song);
   app.innerHTML=`
     <button class="detail-back" onclick="history.back()">← Back</button>
     <section class="detail-hero">
@@ -162,7 +175,10 @@ function renderSong(song){
         <h1>${escapeHtml(song.Song)}</h1>
         <div class="detail-artist">${(song.Artists||[song.Artist]).map(a=>`<a href="#artist/${slug(a)}">${escapeHtml(a)}</a>`).join(' · ')}</div>
         <div class="tags"><a class="tag" href="#album/${slug(song['Album / Release'])}">${escapeHtml(song['Album / Release'])}</a>${(song.Genres||[]).map(g=>`<a class="tag" href="#genre/${slug(g)}">${escapeHtml(g)}</a>`).join('')}</div>
-        <div class="detail-verdict"><strong>Current verdict.</strong> ${tierCopy(Number(song.Score))} ${song.Notes?escapeHtml(song.Notes):'The long-form written review can be added later without changing the data model.'}</div>
+        <div class="detail-verdict">
+          <div class="verdict-block"><strong>Current verdict.</strong> ${escapeHtml(verdict)}</div>
+          ${review ? `<div class="review-block"><strong>Full review.</strong>${reviewMarkup(review)}</div>` : ''}
+        </div>
       </div>
     </section>
     <section class="challenge-layout">
@@ -184,6 +200,7 @@ function renderSong(song){
     state.challenges.unshift(entry);saveChallenges();toast('Challenge saved on this device.');renderSong(song);
   });
 }
+
 function renderChallengeList(songId){ const node=document.getElementById('challengeList'); if(!node)return; const rows=songChallenges(songId); if(!rows.length){node.innerHTML='<div class="empty-state">Be the first to make the case.</div>';return;} node.innerHTML=rows.map(c=>`<div class="challenge-item"><div class="challenge-item-head"><span>${escapeHtml(c.type)}</span><span style="color:var(--blue)">→ ${fmt(c.proposedScore)}</span></div><p>${escapeHtml(c.argument)}</p>${c.timestamp?`<p style="font-size:11px"><strong>Moment:</strong> ${escapeHtml(c.timestamp)}</p>`:''}<div class="challenge-time">${new Date(c.createdAt).toLocaleString()} · status: ${escapeHtml(c.status||'open')}</div></div>`).join(''); }
 
 function renderEntity(kind, value){

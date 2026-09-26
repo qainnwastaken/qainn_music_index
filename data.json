@@ -7,7 +7,7 @@
       "Lana Del Rey"
     ],
     "Album / Release": "Did You Know That There's a Tunnel Under Ocean Blvd",
-    "Score": 3.0,
+    "Score": 3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -16,7 +16,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 2,
@@ -26,7 +28,7 @@
       "Hngle"
     ],
     "Album / Release": "Buông - Single",
-    "Score": 3.0,
+    "Score": 3,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -35,7 +37,9 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 3,
@@ -55,7 +59,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 4,
@@ -74,7 +80,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 5,
@@ -93,7 +101,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 6,
@@ -103,7 +113,7 @@
       "Unknown artist"
     ],
     "Album / Release": "Unresolved — artist missing",
-    "Score": 0.0,
+    "Score": 0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -112,7 +122,9 @@
     ],
     "Genre": "Uncategorized",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 7,
@@ -122,7 +134,7 @@
       "Lâm Thằn Lằn"
     ],
     "Album / Release": "Unresolved — obscure/novelty release",
-    "Score": 0.0,
+    "Score": 0,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -131,7 +143,9 @@
     ],
     "Genre": "Novelty",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 8,
@@ -151,7 +165,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Failed",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 9,
@@ -161,7 +177,7 @@
       "BTS"
     ],
     "Album / Release": "Dynamite - Digital Single",
-    "Score": 4.0,
+    "Score": 4,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -171,7 +187,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Mediocre",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 10,
@@ -181,7 +199,7 @@
       "Bigbang"
     ],
     "Album / Release": "Stand Up",
-    "Score": 5.0,
+    "Score": 5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -191,7 +209,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 11,
@@ -211,7 +231,9 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 12,
@@ -221,7 +243,7 @@
       "Cortis"
     ],
     "Album / Release": "COLOR OUTSIDE THE LINES",
-    "Score": 5.0,
+    "Score": 5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -231,7 +253,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 13,
@@ -250,7 +274,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 14,
@@ -269,7 +295,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 15,
@@ -289,7 +317,9 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 16,
@@ -309,7 +339,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 17,
@@ -328,7 +360,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 18,
@@ -338,7 +372,7 @@
       "Sơn Tùng MTP"
     ],
     "Album / Release": "Come My Way - Single",
-    "Score": 5.0,
+    "Score": 5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -347,7 +381,9 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 19,
@@ -357,7 +393,7 @@
       "Justin Bieber"
     ],
     "Album / Release": "Believe",
-    "Score": 5.0,
+    "Score": 5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -367,7 +403,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 20,
@@ -387,7 +425,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 21,
@@ -407,7 +447,9 @@
     ],
     "Genre": "Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 22,
@@ -417,7 +459,7 @@
       "Malcolm Todd"
     ],
     "Album / Release": "Sweet Boy",
-    "Score": 5.0,
+    "Score": 5,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -427,7 +469,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "It's a song",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 23,
@@ -447,7 +491,9 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 24,
@@ -466,7 +512,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 25,
@@ -486,7 +534,9 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 26,
@@ -505,7 +555,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 27,
@@ -524,7 +576,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 28,
@@ -543,7 +597,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 29,
@@ -563,7 +619,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 30,
@@ -583,7 +641,9 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 31,
@@ -593,7 +653,7 @@
       "Lana Del Rey"
     ],
     "Album / Release": "Born to Die",
-    "Score": 6.0,
+    "Score": 6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -602,7 +662,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 32,
@@ -621,7 +683,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 33,
@@ -642,7 +706,9 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 34,
@@ -661,7 +727,9 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 35,
@@ -671,7 +739,7 @@
       "Luvcat"
     ],
     "Album / Release": "He's My Man - Single",
-    "Score": 6.0,
+    "Score": 6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -680,7 +748,9 @@
     ],
     "Genre": "Alternative Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 36,
@@ -699,7 +769,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 37,
@@ -719,7 +791,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 38,
@@ -739,7 +813,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 39,
@@ -758,7 +834,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 40,
@@ -778,7 +856,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 41,
@@ -798,7 +878,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 42,
@@ -818,7 +900,9 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 43,
@@ -839,7 +923,9 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 44,
@@ -849,7 +935,7 @@
       "Alan Walker"
     ],
     "Album / Release": "Alone - Single",
-    "Score": 6.0,
+    "Score": 6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -858,7 +944,9 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 45,
@@ -868,7 +956,7 @@
       "Alan Walker"
     ],
     "Album / Release": "Faded - Single",
-    "Score": 6.0,
+    "Score": 6,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -877,7 +965,9 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 46,
@@ -896,7 +986,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 47,
@@ -916,7 +1008,9 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 48,
@@ -936,7 +1030,9 @@
     ],
     "Genre": "Christmas",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 49,
@@ -956,7 +1052,9 @@
     ],
     "Genre": "Latin/Reggaeton",
     "Tier": "Listenable",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 50,
@@ -976,7 +1074,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 51,
@@ -995,7 +1095,9 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 52,
@@ -1015,7 +1117,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 53,
@@ -1035,7 +1139,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 54,
@@ -1054,7 +1160,9 @@
     ],
     "Genre": "Vietnamese Ballad",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 55,
@@ -1064,7 +1172,7 @@
       "Arctic Monkeys"
     ],
     "Album / Release": "AM",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1074,7 +1182,9 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 56,
@@ -1094,7 +1204,9 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 57,
@@ -1105,7 +1217,7 @@
       "MIA BOYKA"
     ],
     "Album / Release": "Базовый минимум - Single",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1114,7 +1226,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 58,
@@ -1134,7 +1248,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 59,
@@ -1154,7 +1270,9 @@
     ],
     "Genre": "C-Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 60,
@@ -1174,7 +1292,9 @@
     ],
     "Genre": "Alternative/Indie",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 61,
@@ -1184,7 +1304,7 @@
       "ADÉLA"
     ],
     "Album / Release": "PRIMA",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1193,7 +1313,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 62,
@@ -1212,7 +1334,9 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 63,
@@ -1232,7 +1356,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 64,
@@ -1251,7 +1377,9 @@
     ],
     "Genre": "Electronic/Dance",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 65,
@@ -1261,7 +1389,7 @@
       "Justin Bieber"
     ],
     "Album / Release": "My World",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1271,7 +1399,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 66,
@@ -1281,7 +1411,7 @@
       "Twice"
     ],
     "Album / Release": "What Is Love?",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1291,7 +1421,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 67,
@@ -1310,7 +1442,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 68,
@@ -1320,7 +1454,7 @@
       "Justin Bieber"
     ],
     "Album / Release": "Intentions (Acoustic) - Single",
-    "Score": 7.0,
+    "Score": 7,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1330,7 +1464,9 @@
     ],
     "Genre": "Acoustic Pop",
     "Tier": "Good",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 69,
@@ -1350,7 +1486,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 70,
@@ -1370,7 +1508,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 71,
@@ -1390,7 +1530,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 72,
@@ -1410,7 +1552,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 73,
@@ -1430,7 +1574,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 74,
@@ -1450,7 +1596,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 75,
@@ -1460,7 +1608,7 @@
       "Bad Bunny"
     ],
     "Album / Release": "DeBÍ TiRAR MáS FOToS",
-    "Score": 8.0,
+    "Score": 8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1469,7 +1617,9 @@
     ],
     "Genre": "Latin/Reggaeton",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 76,
@@ -1488,7 +1638,9 @@
     ],
     "Genre": "C-Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 77,
@@ -1508,7 +1660,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 78,
@@ -1518,7 +1672,7 @@
       "Imagine Dragons"
     ],
     "Album / Release": "Night Visions",
-    "Score": 8.0,
+    "Score": 8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1527,7 +1681,9 @@
     ],
     "Genre": "Pop Rock",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 79,
@@ -1537,7 +1693,7 @@
       "Sam Smith"
     ],
     "Album / Release": "Hotel Cabana",
-    "Score": 8.0,
+    "Score": 8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1547,7 +1703,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 80,
@@ -1557,7 +1715,7 @@
       "SZA"
     ],
     "Album / Release": "SOS",
-    "Score": 8.0,
+    "Score": 8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1567,7 +1725,9 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 81,
@@ -1577,7 +1737,7 @@
       "Cortis"
     ],
     "Album / Release": "COLOR OUTSIDE THE LINES",
-    "Score": 8.0,
+    "Score": 8,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1587,7 +1747,9 @@
     ],
     "Genre": "Pop",
     "Tier": "Great",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 82,
@@ -1607,7 +1769,9 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Insane",
-    "Cover": "/covers/Eminem_-_Without_Me.jpg"
+    "Cover": "/covers/Eminem_-_Without_Me.jpg",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 83,
@@ -1617,7 +1781,7 @@
       "Bigbang"
     ],
     "Album / Release": "M / MADE",
-    "Score": 9.0,
+    "Score": 9,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1627,7 +1791,9 @@
     ],
     "Genre": "K-Pop",
     "Tier": "Insane",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 84,
@@ -1637,7 +1803,7 @@
       "Sơn Tùng MTP"
     ],
     "Album / Release": "Chạy Ngay Đi (Onionn Remix) - Single",
-    "Score": 9.0,
+    "Score": 9,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1647,7 +1813,9 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Insane",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   },
   {
     "id": 85,
@@ -1657,7 +1825,7 @@
       "Justin Bieber"
     ],
     "Album / Release": "Journals",
-    "Score": 9.0,
+    "Score": 9,
     "Favorite part": "",
     "Notes": "",
     "Date rated": "",
@@ -1667,6 +1835,8 @@
     ],
     "Genre": "R&B/Soul",
     "Tier": "Insane",
-    "Cover": ""
+    "Cover": "",
+    "Verdict": "",
+    "Review": ""
   }
 ]

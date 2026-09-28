@@ -113,9 +113,9 @@
   {
     "id": 6,
     "Song": "GGEZ",
-    "Artist": "Unknown artist",
+    "Artist": "Kaien, Sugar & M.Sasuke",
     "Artists": [
-      "Unknown artist"
+      "Kaien, Sugar & M.Sasuke"
     ],
     "Album / Release": "Unresolved — artist missing",
     "Score": 0,
@@ -127,7 +127,7 @@
     ],
     "Genre": "Uncategorized",
     "Tier": "Failed",
-    "Cover": "/api/cover?song=GGEZ&artist=Unknown+artist&album=Unresolved+%E2%80%94+artist+missing",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3b/7e/f5/3b7ef57a-49aa-6bb2-1256-fe3b82d39c66/1200214945688.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "unknown-artist--ggez"

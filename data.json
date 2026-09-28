@@ -1326,7 +1326,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": "/api/cover?song=H%C3%A3y+trao+cho+anh&artist=S%C6%A1n+T%C3%B9ng+MTP&album=H%C3%A3y+Trao+Cho+Anh+%28feat.+Snoop+Dogg%29+-+Single",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/15/13/cb/1513cb0b-c5a9-ac85-32ec-907ecfc98c8e/23UM1IM10668.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "son-tung-mtp--hay-trao-cho-anh"
@@ -2006,7 +2006,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Good",
-    "Cover": "/api/cover?song=C%C3%B3+ch%E1%BA%AFc+y%C3%AAu+l%C3%A0+%C4%91%C3%A2y&artist=S%C6%A1n+T%C3%B9ng+MTP&album=C%C3%B3+Ch%E1%BA%AFc+Y%C3%AAu+L%C3%A0+%C4%90%C3%A2y+-+Single",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "son-tung-mtp--co-chac-yeu-la-ay"
@@ -2166,7 +2166,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Good",
-    "Cover": "/api/cover?song=Ch%E1%BA%A1y+Ngay+%C4%90i&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Ch%E1%BA%A1y+Ngay+%C4%90i+-+Single",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/67/60/8e/67608e1f-2974-3844-4ba3-27162dc38535/23UM1IM08506.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "son-tung-mtp--chay-ngay-i"
@@ -2307,7 +2307,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Good",
-    "Cover": "/api/cover?song=Ng%C3%A0y+Mai+Em+%C4%90i&artist=L%C3%AA+Hi%E1%BA%BFu%2C+Soobin+Ho%C3%A0ng+S%C6%A1n%2C+Touliver&album=Ng%C3%A0y+Mai+Em+%C4%90i+-+Single",
+    "Cover": "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/covers/6/9/695bf88c1edaf82e0bd5e085716e5598_1501654149.jpg",
     "Verdict": "",
     "Review": "",
     "stable_id": "le-hieu-soobin-hoang-son-touliver--ngay-mai-em-i"
@@ -2809,7 +2809,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "It's a song",
-    "Cover": "/api/cover?song=Em+C%E1%BB%A7a+Ng%C3%A0y+H%C3%B4m+Qua&artist=S%C6%A1n+T%C3%B9ng+MTP&album=Em+C%E1%BB%A7a+Ng%C3%A0y+H%C3%B4m+Qua+-+Single",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/2c/27/6a2c27aa-f0fe-82c3-32fc-882fc4b53426/23UM1IM10639.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": ""
   },
@@ -4373,7 +4373,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Good",
-    "Cover": "/api/cover?song=Ph%C3%B3ng+%C4%90%E1%BB%95+Tim+Em&artist=Wren+Evans&album=LOI+CHOI%3A+The+Neo+Pop+Punk",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/96/65/5a/96655acc-886d-d132-1283-62a9d8d3f910/Job7f283a4a-917e-4d0b-9484-160bdefaccaf-207955173-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_406376906_2412876489-Time1762410563657.png/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "wren-evans--phong-o-tim-em"

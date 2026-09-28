@@ -4027,7 +4027,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "It's a song",
-    "Cover": "/api/cover?song=Call+Me&artist=Wren+Evans&album=LOI+CHOI%3A+The+Neo+Pop+Punk",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/96/65/5a/96655acc-886d-d132-1283-62a9d8d3f910/Job7f283a4a-917e-4d0b-9484-160bdefaccaf-207955173-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_406376906_2412876489-Time1762410563657.png/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "wren-evans--call-me"
@@ -4051,7 +4051,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "It's a song",
-    "Cover": "/api/cover?song=%C4%91%C3%B4i+m%E1%BA%AFt+k%E1%BA%BB+t%C3%ACnh+si&artist=Grey+D%2C+MIN&album=%C3%81NH+S%C3%81NG+%E2%80%A2+M%C3%80N+%C4%90%C3%8AM",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/c5/ef/75/c5ef75e7-ddf5-244a-f3e8-1feaaa42d979/088fb9eea949e62cb314fd8cdfd28e6f_Preview_Image_Intermediate_nonvideo_sdr_453138480_2761185934.png/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "grey-d-min--oi-mat-ke-tinh-si"
@@ -4189,7 +4189,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": "/api/cover?song=Thu+%C4%90%E1%BB%A3i&artist=Wren+Evans&album=N%E1%BB%94",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/4e/11/454e11ba-66e9-bc85-cdf7-01331fe11303/25UM2IM10673.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "wren-evans--thu-oi"
@@ -4212,7 +4212,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": "/api/cover?song=H%C3%B3a+ra...&artist=Grey+D&album=%C3%81NH+S%C3%81NG+%E2%80%A2+M%C3%80N+%C4%90%C3%8AM",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/c5/ef/75/c5ef75e7-ddf5-244a-f3e8-1feaaa42d979/088fb9eea949e62cb314fd8cdfd28e6f_Preview_Image_Intermediate_nonvideo_sdr_453138480_2761185934.png/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "grey-d--hoa-ra"
@@ -4234,7 +4234,7 @@
     ],
     "Genre": "Vietnamese Pop",
     "Tier": "Listenable",
-    "Cover": "/api/cover?song=Bu%C3%B4ng+%C4%90%C3%B4i+Tay+Nhau+Ra&artist=S%C6%A1n+T%C3%B9ng+MTP&album=m-tp+M-TP",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/316x316bb.webp",
     "Verdict": "",
     "Review": "",
     "stable_id": "son-tung-mtp--buong-oi-tay-nhau-ra"
@@ -4257,7 +4257,7 @@
     ],
     "Genre": "Hip-Hop/Rap",
     "Tier": "Listenable",
-    "Cover": "/api/cover?song=Y%C3%AAu+5&artist=Rhymastic&album=Y%C3%AAu+5+-+Single",
+    "Cover": "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/covers/b/5/b5aa78aa102467e5648160a4ac93df8e_1486467660.jpg",
     "Verdict": "",
     "Review": "",
     "stable_id": "rhymastic--yeu-5"

@@ -4445,5 +4445,363 @@
     "Verdict": "",
     "Review": "",
     "stable_id": "wren-evans--thich-em-hoi-nhieu"
+  },
+  {
+    "id": 196,
+    "Song": "Một Năm Mới Bình An",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 3.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Failed",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--mot-nam-moi-binh-an--m-tp-m-tp"
+  },
+  {
+    "id": 197,
+    "Song": "Cơn Mưa Ngang Qua",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 4.4,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Mediocre",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--con-mua-ngang-qua--m-tp-m-tp"
+  },
+  {
+    "id": 198,
+    "Song": "Tiến Lên Việt Nam Ơi",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 4.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Mediocre",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--tien-len-viet-nam-oi--m-tp-m-tp"
+  },
+  {
+    "id": 199,
+    "Song": "Remember Me",
+    "Artist": "Sơn Tùng MTP, Slim V",
+    "Artists": [
+      "Sơn Tùng MTP",
+      "Slim V"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 4.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Mediocre",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp-slim-v--remember-me--m-tp-m-tp"
+  },
+  {
+    "id": 200,
+    "Song": "Nơi Này Có Anh",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 4.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Mediocre",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--noi-nay-co-anh--m-tp-m-tp"
+  },
+  {
+    "id": 201,
+    "Song": "Nắng Ấm Xa Dần",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 5.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--nang-am-xa-dan--m-tp-m-tp"
+  },
+  {
+    "id": 202,
+    "Song": "Em Của Ngày Hôm Qua",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 5.8,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--em-cua-ngay-hom-qua--m-tp-m-tp"
+  },
+  {
+    "id": 203,
+    "Song": "Chắc Ai Đó Sẽ Về",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 5.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--chac-ai-o-se-ve--m-tp-m-tp"
+  },
+  {
+    "id": 204,
+    "Song": "Thái Bình Mồ Hôi Rơi",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 5.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--thai-binh-mo-hoi-roi--m-tp-m-tp"
+  },
+  {
+    "id": 205,
+    "Song": "Ấn Nút Nhớ... Thả Giấc Mơ",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 5.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--an-nut-nho-tha-giac-mo--m-tp-m-tp"
+  },
+  {
+    "id": 206,
+    "Song": "Anh Sai Rồi",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--anh-sai-roi--m-tp-m-tp"
+  },
+  {
+    "id": 207,
+    "Song": "Khuôn Mặt Đáng Thương",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--khuon-mat-ang-thuong--m-tp-m-tp"
+  },
+  {
+    "id": 208,
+    "Song": "Âm Thầm Bên Em",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--am-tham-ben-em--m-tp-m-tp"
+  },
+  {
+    "id": 209,
+    "Song": "Như Ngày Hôm Qua",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--nhu-ngay-hom-qua--m-tp-m-tp"
+  },
+  {
+    "id": 210,
+    "Song": "Chúng Ta Không Thuộc Về Nhau",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--chung-ta-khong-thuoc-ve-nhau--m-tp-m-tp"
+  },
+  {
+    "id": 211,
+    "Song": "Lạc Trôi",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 7.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/300x300bb.webp",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--lac-troi--m-tp-m-tp"
   }
 ]

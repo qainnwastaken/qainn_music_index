@@ -3916,5 +3916,534 @@
     "Verdict": "",
     "Review": "",
     "stable_id": "eminem-dina-rae--superman"
+  },
+  {
+    "id": 173,
+    "Song": "Không Buông",
+    "Artist": "hngle",
+    "Artists": [
+      "hngle"
+    ],
+    "Album / Release": "Không Buông - Single",
+    "Score": 3.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul",
+      "Vietnamese Pop"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "Failed",
+    "Cover": "/api/cover?song=Kh%C3%B4ng+Bu%C3%B4ng&artist=hngle&album=Kh%C3%B4ng+Bu%C3%B4ng+-+Single",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "hngle--khong-buong"
+  },
+  {
+    "id": 174,
+    "Song": "Young and Beautiful",
+    "Artist": "Lana Del Rey",
+    "Artists": [
+      "Lana Del Rey"
+    ],
+    "Album / Release": "The Great Gatsby (Music From Baz Luhrmann's Film)",
+    "Score": 3.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Alternative Pop",
+      "Soundtrack"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Failed",
+    "Cover": "/api/cover?song=Young+and+Beautiful&artist=Lana+Del+Rey&album=The+Great+Gatsby+%28Music+From+Baz+Luhrmann%27s+Film%29",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "lana-del-rey--young-and-beautiful"
+  },
+  {
+    "id": 175,
+    "Song": "IGOR's Theme",
+    "Artist": "Tyler, The Creator",
+    "Artists": [
+      "Tyler, The Creator"
+    ],
+    "Album / Release": "IGOR",
+    "Score": 4.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap",
+      "Alternative/Indie"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Mediocre",
+    "Cover": "/api/cover?song=IGOR%27s+Theme&artist=Tyler%2C+The+Creator&album=IGOR",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "tyler-the-creator--igor-s-theme"
+  },
+  {
+    "id": 176,
+    "Song": "Xương Rồng",
+    "Artist": "dangrangto",
+    "Artists": [
+      "dangrangto"
+    ],
+    "Album / Release": "trái tim băng bó",
+    "Score": 5.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap",
+      "Vietnamese Pop"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=X%C6%B0%C6%A1ng+R%E1%BB%93ng&artist=dangrangto&album=tr%C3%A1i+tim+b%C4%83ng+b%C3%B3",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "dangrangto--xuong-rong"
+  },
+  {
+    "id": 177,
+    "Song": "Call Me",
+    "Artist": "Wren Evans",
+    "Artists": [
+      "Wren Evans"
+    ],
+    "Album / Release": "LOI CHOI: The Neo Pop Punk",
+    "Score": 5.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=Call+Me&artist=Wren+Evans&album=LOI+CHOI%3A+The+Neo+Pop+Punk",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "wren-evans--call-me"
+  },
+  {
+    "id": 178,
+    "Song": "đôi mắt kẻ tình si",
+    "Artist": "Grey D, MIN",
+    "Artists": [
+      "Grey D",
+      "MIN"
+    ],
+    "Album / Release": "ÁNH SÁNG • MÀN ĐÊM",
+    "Score": 5.1,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=%C4%91%C3%B4i+m%E1%BA%AFt+k%E1%BA%BB+t%C3%ACnh+si&artist=Grey+D%2C+MIN&album=%C3%81NH+S%C3%81NG+%E2%80%A2+M%C3%80N+%C4%90%C3%8AM",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "grey-d-min--oi-mat-ke-tinh-si"
+  },
+  {
+    "id": 179,
+    "Song": "mới hôm qua",
+    "Artist": "Grey D",
+    "Artists": [
+      "Grey D"
+    ],
+    "Album / Release": "ÁNH SÁNG • MÀN ĐÊM",
+    "Score": 5.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=m%E1%BB%9Bi+h%C3%B4m+qua&artist=Grey+D&album=%C3%81NH+S%C3%81NG+%E2%80%A2+M%C3%80N+%C4%90%C3%8AM",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "grey-d--moi-hom-qua"
+  },
+  {
+    "id": 180,
+    "Song": "Tìm Em",
+    "Artist": "hngle, Bảo Anh",
+    "Artists": [
+      "hngle",
+      "Bảo Anh"
+    ],
+    "Album / Release": "Tìm Em (feat. Bảo Anh) - Single",
+    "Score": 5.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=T%C3%ACm+Em&artist=hngle%2C+B%E1%BA%A3o+Anh&album=T%C3%ACm+Em+%28feat.+B%E1%BA%A3o+Anh%29+-+Single",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "hngle-bao-anh--tim-em"
+  },
+  {
+    "id": 181,
+    "Song": "Kill Bill",
+    "Artist": "SZA",
+    "Artists": [
+      "SZA"
+    ],
+    "Album / Release": "SOS",
+    "Score": 5.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "R&B/Soul"
+    ],
+    "Genre": "R&B/Soul",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=Kill+Bill&artist=SZA&album=SOS",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "sza--kill-bill"
+  },
+  {
+    "id": 182,
+    "Song": "hate that i made you love me",
+    "Artist": "Ariana Grande",
+    "Artists": [
+      "Ariana Grande"
+    ],
+    "Album / Release": "petal",
+    "Score": 5.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "It's a song",
+    "Cover": "/api/cover?song=hate+that+i+made+you+love+me&artist=Ariana+Grande&album=petal",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "ariana-grande--hate-that-i-made-you-love-me"
+  },
+  {
+    "id": 183,
+    "Song": "Earfquake",
+    "Artist": "Tyler, The Creator",
+    "Artists": [
+      "Tyler, The Creator"
+    ],
+    "Album / Release": "IGOR",
+    "Score": 6.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap",
+      "R&B/Soul"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Earfquake&artist=Tyler%2C+The+Creator&album=IGOR",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "tyler-the-creator--earfquake"
+  },
+  {
+    "id": 184,
+    "Song": "Thu Đợi",
+    "Artist": "Wren Evans",
+    "Artists": [
+      "Wren Evans"
+    ],
+    "Album / Release": "NỔ",
+    "Score": 6.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Thu+%C4%90%E1%BB%A3i&artist=Wren+Evans&album=N%E1%BB%94",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "wren-evans--thu-oi"
+  },
+  {
+    "id": 185,
+    "Song": "Hóa ra...",
+    "Artist": "Grey D",
+    "Artists": [
+      "Grey D"
+    ],
+    "Album / Release": "ÁNH SÁNG • MÀN ĐÊM",
+    "Score": 6.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=H%C3%B3a+ra...&artist=Grey+D&album=%C3%81NH+S%C3%81NG+%E2%80%A2+M%C3%80N+%C4%90%C3%8AM",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "grey-d--hoa-ra"
+  },
+  {
+    "id": 186,
+    "Song": "Buông Đôi Tay Nhau Ra",
+    "Artist": "Sơn Tùng MTP",
+    "Artists": [
+      "Sơn Tùng MTP"
+    ],
+    "Album / Release": "m-tp M-TP",
+    "Score": 6.9,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Bu%C3%B4ng+%C4%90%C3%B4i+Tay+Nhau+Ra&artist=S%C6%A1n+T%C3%B9ng+MTP&album=m-tp+M-TP",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "son-tung-mtp--buong-oi-tay-nhau-ra"
+  },
+  {
+    "id": 187,
+    "Song": "Yêu 5",
+    "Artist": "Rhymastic",
+    "Artists": [
+      "Rhymastic"
+    ],
+    "Album / Release": "Yêu 5 - Single",
+    "Score": 6.6,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Hip-Hop/Rap",
+      "Vietnamese Pop"
+    ],
+    "Genre": "Hip-Hop/Rap",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Y%C3%AAu+5&artist=Rhymastic&album=Y%C3%AAu+5+-+Single",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "rhymastic--yeu-5"
+  },
+  {
+    "id": 188,
+    "Song": "Without Me",
+    "Artist": "Halsey",
+    "Artists": [
+      "Halsey"
+    ],
+    "Album / Release": "Manic",
+    "Score": 6.5,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Alternative Pop",
+      "Pop"
+    ],
+    "Genre": "Alternative Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Without+Me&artist=Halsey&album=Manic",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "halsey--without-me"
+  },
+  {
+    "id": 189,
+    "Song": "Speed Demon",
+    "Artist": "Justin Bieber",
+    "Artists": [
+      "Justin Bieber"
+    ],
+    "Album / Release": "SWAG II",
+    "Score": 6.7,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Speed+Demon&artist=Justin+Bieber&album=SWAG+II",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "justin-bieber--speed-demon"
+  },
+  {
+    "id": 190,
+    "Song": "Stuck With U",
+    "Artist": "Ariana Grande, Justin Bieber",
+    "Artists": [
+      "Ariana Grande",
+      "Justin Bieber"
+    ],
+    "Album / Release": "Stuck with U - Single",
+    "Score": 6.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=Stuck+With+U&artist=Ariana+Grande%2C+Justin+Bieber&album=Stuck+with+U+-+Single",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "ariana-grande-justin-bieber--stuck-with-u"
+  },
+  {
+    "id": 191,
+    "Song": "thank u, next",
+    "Artist": "Ariana Grande",
+    "Artists": [
+      "Ariana Grande"
+    ],
+    "Album / Release": "thank u, next",
+    "Score": 6.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Pop",
+      "R&B/Soul"
+    ],
+    "Genre": "Pop",
+    "Tier": "Listenable",
+    "Cover": "/api/cover?song=thank+u%2C+next&artist=Ariana+Grande&album=thank+u%2C+next",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "ariana-grande--thank-u-next"
+  },
+  {
+    "id": 192,
+    "Song": "Phóng Đổ Tim Em",
+    "Artist": "Wren Evans",
+    "Artists": [
+      "Wren Evans"
+    ],
+    "Album / Release": "LOI CHOI: The Neo Pop Punk",
+    "Score": 7.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Alternative Pop"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Ph%C3%B3ng+%C4%90%E1%BB%95+Tim+Em&artist=Wren+Evans&album=LOI+CHOI%3A+The+Neo+Pop+Punk",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "wren-evans--phong-o-tim-em"
+  },
+  {
+    "id": 193,
+    "Song": "Chờ Cơn Mưa",
+    "Artist": "Trung Quân",
+    "Artists": [
+      "Trung Quân"
+    ],
+    "Album / Release": "Người Đang Yêu",
+    "Score": 7.2,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Ballad",
+      "Vietnamese Pop"
+    ],
+    "Genre": "Vietnamese Ballad",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Ch%E1%BB%9D+C%C6%A1n+M%C6%B0a&artist=Trung+Qu%C3%A2n&album=Ng%C6%B0%E1%BB%9Di+%C4%90ang+Y%C3%AAu",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "trung-quan--cho-con-mua"
+  },
+  {
+    "id": 194,
+    "Song": "Dracula",
+    "Artist": "Tame Impala",
+    "Artists": [
+      "Tame Impala"
+    ],
+    "Album / Release": "Deadbeat",
+    "Score": 7.3,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Alternative/Indie"
+    ],
+    "Genre": "Alternative/Indie",
+    "Tier": "Good",
+    "Cover": "/api/cover?song=Dracula&artist=Tame+Impala&album=Deadbeat",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "tame-impala--dracula"
+  },
+  {
+    "id": 195,
+    "Song": "Thích Em Hơi Nhiều",
+    "Artist": "Wren Evans",
+    "Artists": [
+      "Wren Evans"
+    ],
+    "Album / Release": "Thích Em Hơi Nhiều - Single",
+    "Score": 8.0,
+    "Favorite part": "",
+    "Notes": "",
+    "Date rated": "",
+    "Genres": [
+      "Vietnamese Pop",
+      "Hip-Hop/Rap"
+    ],
+    "Genre": "Vietnamese Pop",
+    "Tier": "Great",
+    "Cover": "/api/cover?song=Th%C3%ADch+Em+H%C6%A1i+Nhi%E1%BB%81u&artist=Wren+Evans&album=Th%C3%ADch+Em+H%C6%A1i+Nhi%E1%BB%81u+-+Single",
+    "Verdict": "",
+    "Review": "",
+    "stable_id": "wren-evans--thich-em-hoi-nhieu"
   }
 ]
